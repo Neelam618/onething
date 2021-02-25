@@ -2,6 +2,11 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 500; }
 
+#bootstrap-overrides header .navbar .navbar-toggler {
+  border: none; }
+  #bootstrap-overrides header .navbar .navbar-toggler .navbar-toggler-icon {
+    background-image: url(../img/menu.svg); }
+
 #bootstrap-overrides header .navbar .navbar-collapse {
   align-items: center;
   padding: 40px 0; }
@@ -36,7 +41,10 @@ body {
     color: #FFFFFF;
     font-weight: 500;
     font-size: 18px;
-    margin-top: 1rem; }
+    margin-top: 1rem;
+    margin-bottom: 24px; }
+  #bootstrap-overrides .main-container .image img {
+    width: -webkit-fill-available; }
 
 #bootstrap-overrides .step1-container {
   background: #8E7CB5;
@@ -186,3 +194,7 @@ body {
       margin-bottom: 24px;
       line-height: 24px;
       color: #FFFFFF; }
+
+@media screen and (max-width: 768px) {
+  #bootstrap-overrides header .navbar .navbar-brand img {
+    width: 102px; } }

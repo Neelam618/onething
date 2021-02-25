@@ -12,6 +12,12 @@ body {
             .navbar-brand {
 
             }
+            .navbar-toggler {
+                border: none;
+                .navbar-toggler-icon {
+                    background-image: url(../img/menu.svg);
+                }
+            }
             .navbar-collapse{
                 align-items: center;
                 padding: 40px 0;
@@ -60,9 +66,16 @@ body {
                 font-weight: 500;
                 font-size: 18px;
                 margin-top: 1rem;
+                margin-bottom: 24px;
+            }
+        }
+        .image {
+            img {
+                width: -webkit-fill-available;
             }
         }
     }
+
     .step1-container {
         background: #8E7CB5;
         color: $colorWhite;
@@ -267,12 +280,30 @@ body {
             }
         }
     }
+}
 
-
-
-
-
-
-
+ @media screen and (max-width:768px) {
+    #bootstrap-overrides {
+        header {
+            .navbar {
+                .navbar-brand {
+                    img {
+                        width: 102px;
+                    }
+                }
+               
+                .navbar-collapse{
+                }
+            }
+        }
+    }
 
 }
+        //    .main-container {
+    //       .image {
+    //           img {
+    //             transform: scale(0.565);
+    //           }
+    //       } 
+    //    } 
+
