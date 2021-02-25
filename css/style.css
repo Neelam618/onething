@@ -123,3 +123,34 @@ body {
         font-size: 24px;
         line-height: 36px;
         font-weight: 400; }
+
+#bootstrap-overrides .faq-container {
+  max-width: 808px;
+  margin: 80px auto; }
+  #bootstrap-overrides .faq-container h3 {
+    font-size: 32px;
+    line-height: 48px; }
+  #bootstrap-overrides .faq-container .accordion .accordion-item .accordion-header .accordion-button {
+    color: #F2707C;
+    font-size: 20px;
+    line-height: 32px;
+    height: 80px;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 32px 0 16px 0; }
+    #bootstrap-overrides .faq-container .accordion .accordion-item .accordion-header .accordion-button::after {
+      background-image: url(../img/arrowdown.svg); }
+    #bootstrap-overrides .faq-container .accordion .accordion-item .accordion-header .accordion-button:focus {
+      box-shadow: none; }
+    #bootstrap-overrides .faq-container .accordion .accordion-item .accordion-header .accordion-button:not(.collapsed) {
+      background-color: #FFFFFF;
+      border: none;
+      padding-bottom: 0; }
+  #bootstrap-overrides .faq-container .accordion .accordion-item .accordion-body {
+    border-bottom: 1px solid black;
+    text-align: initial;
+    padding: 16px 0;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.87); }
