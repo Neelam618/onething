@@ -52,7 +52,8 @@ body {
       font-size: 16px;
       width: 492px;
       font-weight: 400;
-      line-height: 24px; }
+      line-height: 24px;
+      margin-left: auto; }
       #bootstrap-overrides .step1-container .container .desc a {
         font-weight: 500;
         font-size: 20px;
@@ -66,7 +67,6 @@ body {
   height: 480px; }
   #bootstrap-overrides .step2-container .content .row .demo-form {
     height: inherit;
-    width: 732px;
     margin-right: auto;
     padding: 63px 124px 63px 208px;
     background: #BFE1FF; }
@@ -84,7 +84,7 @@ body {
       color: rgba(0, 0, 0, 0.38);
       background: #FFFFFF; }
   #bootstrap-overrides .step2-container .content .row .form-desc {
-    margin-right: auto; }
+    width: 394px; }
     #bootstrap-overrides .step2-container .content .row .form-desc h2 {
       font-size: 40px;
       line-height: 60px;
@@ -92,8 +92,21 @@ body {
     #bootstrap-overrides .step2-container .content .row .form-desc p {
       font-size: 24px;
       line-height: 36px;
-      font-weight: 400;
-      width: 394px; }
+      font-weight: 400; }
 
 #bootstrap-overrides .rewards-container {
   background: #FFE4E7; }
+  #bootstrap-overrides .rewards-container .row {
+    height: 608px; }
+    #bootstrap-overrides .rewards-container .row .rewards-text {
+      width: 496px; }
+      #bootstrap-overrides .rewards-container .row .rewards-text h2 {
+        font-size: 40px;
+        line-height: 60px; }
+      #bootstrap-overrides .rewards-container .row .rewards-text p {
+        font-size: 24px;
+        line-height: 36px;
+        font-weight: 400; }
+    #bootstrap-overrides .rewards-container .row .slideshow {
+      height: 480px;
+      width: 600px; }
