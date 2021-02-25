@@ -1,2 +1,18 @@
-.navbar-nav {
-  text-align: end; }
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500; }
+
+#bootstrap-overrides header .navbar .navbar-collapse {
+  align-items: center;
+  padding: 40px 0; }
+  #bootstrap-overrides header .navbar .navbar-collapse .navbar-nav {
+    align-items: center; }
+    #bootstrap-overrides header .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
+      color: #262A2F;
+      padding: 0 20px; }
+    #bootstrap-overrides header .navbar .navbar-collapse .navbar-nav .nav-item .btn {
+      background-color: #F2707C;
+      padding: 8px 24px;
+      font-weight: 500;
+      color: #FFFFFF;
+      border-radius: 4px; }

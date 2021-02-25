@@ -1,3 +1,38 @@
-.navbar-nav {
-    text-align: end;
+$colorSalmon: #F2707C;
+$colorWhite: #FFFFFF;
+
+body {
+   font-family: 'Roboto', sans-serif;
+   font-weight: 500;
+}
+#bootstrap-overrides {
+    header {
+        .navbar {
+            .navbar-brand {
+
+            }
+            .navbar-collapse{
+                align-items: center;
+                padding: 40px 0;
+                .navbar-nav {
+                    align-items: center;
+                    .nav-item {
+                        .nav-link {
+                            color: #262A2F;
+                            padding: 0 20px;
+                        }
+                    }
+                    .nav-item {
+                        .btn {
+                            background-color: $colorSalmon;
+                            padding: 8px 24px;
+                            font-weight: 500;
+                            color: $colorWhite;
+                            border-radius: 4px;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
