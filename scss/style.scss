@@ -35,4 +35,39 @@ body {
             }
         }
     }
+    .main-container {
+        margin: 80px auto;
+        .text {
+            h1 {
+                font-size: 48px;
+                line-height: 62.4px;
+            }
+            p{
+                width: 496px;
+                font-size: 20px;
+                line-height: 30px;
+                font-weight: 400;
+            }
+            .btn {
+                background-color: $colorSalmon;
+                padding: 8px 40px;
+                border-radius: 30px;
+                color: $colorWhite;
+                font-weight: 500;
+                font-size: 18px;
+            }
+        }
+        .image {
+        }
+    }
+
+
+
+
+
+
+
+
+
+
 }
