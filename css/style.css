@@ -21,7 +21,8 @@ body {
   margin: 80px auto; }
   #bootstrap-overrides .main-container .text h1 {
     font-size: 48px;
-    line-height: 62.4px; }
+    line-height: 62.4px;
+    margin-bottom: 1rem; }
   #bootstrap-overrides .main-container .text p {
     width: 496px;
     font-size: 20px;
@@ -33,4 +34,5 @@ body {
     border-radius: 30px;
     color: #FFFFFF;
     font-weight: 500;
-    font-size: 18px; }
+    font-size: 18px;
+    margin-top: 1rem; }
