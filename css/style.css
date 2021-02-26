@@ -101,42 +101,36 @@ body {
         font-weight: 400; }
 
 #bootstrap-overrides .styles-container {
-  background: #F7F3FF; }
-  #bootstrap-overrides .styles-container .row {
-    height: 480px; }
-    #bootstrap-overrides .styles-container .row .carousel-indicators {
-      position: initial;
-      justify-content: center;
-      margin-top: 59px; }
-      #bootstrap-overrides .styles-container .row .carousel-indicators button {
-        width: 73.4px;
-        height: 46.71px;
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: center;
-        opacity: 1;
-        margin-right: 40px; }
-        #bootstrap-overrides .styles-container .row .carousel-indicators button[data-bs-slide-to="0"] {
-          background-image: url(../img/cc-1.svg); }
-        #bootstrap-overrides .styles-container .row .carousel-indicators button[data-bs-slide-to="1"] {
-          background-image: url(../img/cc-2.svg); }
-        #bootstrap-overrides .styles-container .row .carousel-indicators button[data-bs-slide-to="2"] {
-          background-image: url(../img/cc-3.svg); }
-        #bootstrap-overrides .styles-container .row .carousel-indicators button[data-bs-slide-to="3"] {
-          background-image: url(../img/cc-4.svg);
-          margin-right: 0; }
-        #bootstrap-overrides .styles-container .row .carousel-indicators button.active {
-          border: 1px solid rgba(0, 0, 0, 0.6); }
-    #bootstrap-overrides .styles-container .row .select-style {
-      width: 495px; }
-      #bootstrap-overrides .styles-container .row .select-style h2 {
-        margin: 1rem 0;
-        font-size: 40px;
-        line-height: 60px; }
-      #bootstrap-overrides .styles-container .row .select-style p {
-        font-size: 24px;
-        line-height: 36px;
-        font-weight: 400; }
+  background: #F7F3FF;
+  padding: 70px 0; }
+  #bootstrap-overrides .styles-container .row .carousel-indicators {
+    position: initial;
+    justify-content: center;
+    margin-top: 59px;
+    margin-bottom: 0; }
+    #bootstrap-overrides .styles-container .row .carousel-indicators button {
+      width: 68px;
+      height: 41px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+      opacity: 1;
+      margin-right: 40px;
+      padding: 2px; }
+      #bootstrap-overrides .styles-container .row .carousel-indicators button img {
+        float: left; }
+      #bootstrap-overrides .styles-container .row .carousel-indicators button.active {
+        border: 1px solid rgba(0, 0, 0, 0.6); }
+  #bootstrap-overrides .styles-container .row .select-style {
+    width: 495px; }
+    #bootstrap-overrides .styles-container .row .select-style h2 {
+      margin: 1rem 0;
+      font-size: 40px;
+      line-height: 60px; }
+    #bootstrap-overrides .styles-container .row .select-style p {
+      font-size: 24px;
+      line-height: 36px;
+      font-weight: 400; }
 
 #bootstrap-overrides .faq-container {
   max-width: 808px;
@@ -264,7 +258,13 @@ body {
           margin-right: 11.33px; }
       #bootstrap-overrides .rewards-container .row .slideshow .carousel-inner {
         background: #fae4e7;
-        padding: 24px; } }
+        padding: 24px; }
+  #bootstrap-overrides .styles-container {
+    background: unset;
+    padding: 0; }
+    #bootstrap-overrides .styles-container .row .carousel {
+      background: #F7F3FF;
+      padding: 30px 45px; } }
 
 @media screen and (max-width: 992px) {
   #bootstrap-overrides header .navbar .navbar-brand img {
@@ -302,11 +302,15 @@ body {
       line-height: 21px; }
     #bootstrap-overrides .step2-container .mobile .start-btn {
       color: inherit; }
-    #bootstrap-overrides .rewards-container .row .rewards-text h2 {
-      font-size: 18px;
-      line-height: 21px; }
-    #bootstrap-overrides .rewards-container .row .rewards-text p {
-      font-size: 16px;
-      line-height: 24px; }
+    #bootstrap-overrides .rewards-container .row .rewards-text {
+      width: 327px; }
+      #bootstrap-overrides .rewards-container .row .rewards-text h2 {
+        font-size: 18px;
+        line-height: 21px; }
+      #bootstrap-overrides .rewards-container .row .rewards-text p {
+        font-size: 16px;
+        line-height: 24px; }
     #bootstrap-overrides .rewards-container .row .slideshow .carousel-inner .carousel-item img {
-      width: 184px; } }
+      width: 184px; }
+    #bootstrap-overrides .styles-container .carousel-inner .carousel-item img {
+      width: 237.54px; } }

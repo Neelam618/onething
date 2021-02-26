@@ -148,33 +148,25 @@ body {
 
     .styles-container {
         background: #F7F3FF;
+        padding: 70px 0;
         .row {
-            height: 480px;
             .carousel-indicators {
                 position: initial;
                 justify-content: center;
                 margin-top: 59px;
+                margin-bottom: 0;
                 button {
-                    width: 73.4px;
-                    height: 46.71px;
+                    width: 68px;
+                    height: 41px;
                     background-repeat: no-repeat;
                     background-size: contain;
                     background-position: center;
                     opacity: 1;
                     margin-right: 40px;
+                    padding: 2px;
 
-                    &[data-bs-slide-to="0"]{
-                        background-image: url(../img/cc-1.svg);
-                    }
-                    &[data-bs-slide-to="1"]{
-                        background-image: url(../img/cc-2.svg);
-                    }
-                    &[data-bs-slide-to="2"]{
-                        background-image: url(../img/cc-3.svg);
-                    }
-                    &[data-bs-slide-to="3"]{
-                        background-image: url(../img/cc-4.svg);
-                        margin-right: 0;
+                    img {
+                        float: left;
                     }
                     &.active {
                         border: 1px solid rgba(0, 0, 0, 0.6);
@@ -374,6 +366,16 @@ body {
                 }
             }
         }
+        .styles-container {
+            background: unset;
+            padding: 0;
+            .row {
+                .carousel {
+                    background: #F7F3FF;
+                    padding: 30px 45px;
+                }
+            }
+        }
     }
 }
 
@@ -403,16 +405,6 @@ body {
                 }
             }
         }
-        // .rewards-container {
-        //     .row {
-        //         .rewards-text {
-        //             h2 {
-        //                 font-size: 18px;
-        //                 line-height: 21px;
-        //             }
-        //         }
-        //     }
-        // }
     }
 }
  @media screen and (max-width:576px) {
@@ -465,6 +457,7 @@ body {
         .rewards-container {
             .row {
                 .rewards-text {
+                    width: 327px;
                     h2 {
                         font-size: 18px;
                         line-height: 21px;
@@ -481,6 +474,15 @@ body {
                                 width: 184px;
                             }
                         }
+                    }
+                }
+            }
+        }
+        .styles-container {
+            .carousel-inner {
+                .carousel-item {
+                    img {
+                        width: 237.54px;
                     }
                 }
             }
