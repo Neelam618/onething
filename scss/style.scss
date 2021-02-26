@@ -81,7 +81,6 @@ body {
                     width: 599px;
                     font-size: 40px;
                     line-height: 56px;
-                    margin-bottom: 1rem;
                     margin-top: 93px;
                 }
                 .desc {
@@ -255,6 +254,10 @@ body {
         .step1-container {
             .mobile {
                 height: 333px;
+                h2 {
+                    margin-bottom: 1rem;
+
+                }
                 p {
                     font-size: 16px;
                     line-height: 24px;
@@ -286,6 +289,34 @@ body {
                     }
                 }
             }
+        }
+        .step2-container {
+            background-image: unset;
+            .mobile {
+                padding: 32px 0 48px 0;
+                h2 {
+                    line-height: 36px;
+                    margin-bottom: 32px;
+                }
+                h3 {
+                    margin-top: 1rem;
+                }
+                p{
+                    font-size: 16px;
+                    line-height: 24px;
+                    font-weight: 400;
+                }
+                .start-btn {
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: inherit;
+                    margin-right: 11.33px;
+                }
+                img {
+                    vertical-align: unset;
+                }
+            }
+
         }
     }
 }
@@ -320,6 +351,7 @@ body {
 }
  @media screen and (max-width:576px) {
     #bootstrap-overrides {
+        color: rgba(0, 0, 0, 0.87);
         .main-container {
             margin: 30px auto;
             margin-bottom: 48px;
@@ -327,7 +359,6 @@ body {
                 h1 {
                     font-size: 32px;
                     line-height: 44.8px;
-                    color: rgba(0, 0, 0, 0.87);
                 }
                 p {
                     font-size: 17px;
@@ -343,15 +374,26 @@ body {
             }
         }
         .step1-container {
-            .desktop {
-                // height: 392px;
-                // padding-top: 93px;
+            .mobile {
                 h2 {
-                    // width: 599px;
                     font-size: 24px;
                     line-height: 36px;
                 }
-                .desc {}
+            }
+        }
+        .step2-container {
+            .mobile {
+                h2 {
+                    font-size: 24px;
+                    line-height: 36px;
+                }
+                h3 {
+                    font-size: 18px;
+                    line-height: 21px;
+                }
+                .start-btn {
+                    color: inherit;
+                }
             }
         }
     }

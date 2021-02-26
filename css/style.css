@@ -55,7 +55,6 @@ body {
         width: 599px;
         font-size: 40px;
         line-height: 56px;
-        margin-bottom: 1rem;
         margin-top: 93px; }
       #bootstrap-overrides .step1-container .desktop .row .desc {
         font-size: 16px;
@@ -181,6 +180,8 @@ body {
 @media screen and (max-width: 1200px) {
   #bootstrap-overrides .step1-container .mobile {
     height: 333px; }
+    #bootstrap-overrides .step1-container .mobile h2 {
+      margin-bottom: 1rem; }
     #bootstrap-overrides .step1-container .mobile p {
       font-size: 16px;
       line-height: 24px;
@@ -204,7 +205,27 @@ body {
       background: #4E3F6B;
       border-radius: 21px;
       color: #FFFFFF;
-      margin-left: 16px; } }
+      margin-left: 16px; }
+  #bootstrap-overrides .step2-container {
+    background-image: unset; }
+    #bootstrap-overrides .step2-container .mobile {
+      padding: 32px 0 48px 0; }
+      #bootstrap-overrides .step2-container .mobile h2 {
+        line-height: 36px;
+        margin-bottom: 32px; }
+      #bootstrap-overrides .step2-container .mobile h3 {
+        margin-top: 1rem; }
+      #bootstrap-overrides .step2-container .mobile p {
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400; }
+      #bootstrap-overrides .step2-container .mobile .start-btn {
+        font-size: 16px;
+        line-height: 24px;
+        color: inherit;
+        margin-right: 11.33px; }
+      #bootstrap-overrides .step2-container .mobile img {
+        vertical-align: unset; } }
 
 @media screen and (max-width: 992px) {
   #bootstrap-overrides header .navbar .navbar-brand img {
@@ -215,21 +236,30 @@ body {
       margin-left: 0; } }
 
 @media screen and (max-width: 576px) {
-  #bootstrap-overrides .main-container {
-    margin: 30px auto;
-    margin-bottom: 48px; }
-    #bootstrap-overrides .main-container .text h1 {
-      font-size: 32px;
-      line-height: 44.8px;
-      color: rgba(0, 0, 0, 0.87); }
-    #bootstrap-overrides .main-container .text p {
-      font-size: 17px;
-      width: 329px;
-      line-height: 25px; }
-    #bootstrap-overrides .main-container .text .btn {
-      font-size: 16px;
-      line-height: 24px;
-      padding: 8px 37px; }
-  #bootstrap-overrides .step1-container .desktop h2 {
-    font-size: 24px;
-    line-height: 36px; } }
+  #bootstrap-overrides {
+    color: rgba(0, 0, 0, 0.87); }
+    #bootstrap-overrides .main-container {
+      margin: 30px auto;
+      margin-bottom: 48px; }
+      #bootstrap-overrides .main-container .text h1 {
+        font-size: 32px;
+        line-height: 44.8px; }
+      #bootstrap-overrides .main-container .text p {
+        font-size: 17px;
+        width: 329px;
+        line-height: 25px; }
+      #bootstrap-overrides .main-container .text .btn {
+        font-size: 16px;
+        line-height: 24px;
+        padding: 8px 37px; }
+    #bootstrap-overrides .step1-container .mobile h2 {
+      font-size: 24px;
+      line-height: 36px; }
+    #bootstrap-overrides .step2-container .mobile h2 {
+      font-size: 24px;
+      line-height: 36px; }
+    #bootstrap-overrides .step2-container .mobile h3 {
+      font-size: 18px;
+      line-height: 21px; }
+    #bootstrap-overrides .step2-container .mobile .start-btn {
+      color: inherit; } }
