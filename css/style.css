@@ -111,12 +111,12 @@ body {
     #bootstrap-overrides .styles-container .row .carousel-indicators button {
       width: 68px;
       height: 41px;
-      background-repeat: no-repeat;
-      background-size: contain;
-      background-position: center;
       opacity: 1;
       margin-right: 40px;
-      padding: 2px; }
+      padding: 2px;
+      border: 1px solid transparent;
+      background: #F7F3FF;
+      border-radius: 3px; }
       #bootstrap-overrides .styles-container .row .carousel-indicators button img {
         float: left; }
       #bootstrap-overrides .styles-container .row .carousel-indicators button.active {
@@ -312,5 +312,26 @@ body {
         line-height: 24px; }
     #bootstrap-overrides .rewards-container .row .slideshow .carousel-inner .carousel-item img {
       width: 184px; }
-    #bootstrap-overrides .styles-container .carousel-inner .carousel-item img {
-      width: 237.54px; } }
+    #bootstrap-overrides .styles-container .row .carousel-inner .carousel-item img {
+      width: 237.54px; }
+    #bootstrap-overrides .styles-container .row .carousel-indicators {
+      margin-top: 36.54px; }
+      #bootstrap-overrides .styles-container .row .carousel-indicators button {
+        width: 40px;
+        height: 24px;
+        margin-right: 25px; }
+        #bootstrap-overrides .styles-container .row .carousel-indicators button img {
+          width: 40px; }
+    #bootstrap-overrides .styles-container .row .select-style {
+      width: 327px; }
+      #bootstrap-overrides .styles-container .row .select-style h2 {
+        font-size: 18px;
+        line-height: 21px; }
+      #bootstrap-overrides .styles-container .row .select-style p {
+        font-size: 16px;
+        line-height: 24px; }
+      #bootstrap-overrides .styles-container .row .select-style .start-btn {
+        font-size: 16px;
+        line-height: 24px;
+        color: inherit;
+        margin-right: 11.33px; } }
