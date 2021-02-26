@@ -106,51 +106,22 @@ body {
     }
     .step2-container {
         background-image: linear-gradient(to right, #bfe1fe 50%, transparent 50%);
-        .content{
-            height: 480px;
-            .row {
-                height: 480px;
-                .demo-form {
-                    height: 480px;
-                    padding: 64px 100px;
-                    background: #BFE1FF;
-                    .demo-input {
-                        // height: 64px;
-                        width: 400px;
-                        font-size: 24px;
-                        line-height: 32px;
-                        padding: 16px 113px 16px 16px;
-                        border-radius: 8px;
-                    }
-                    .demo-input1, .demo-input2 {
-                        @extend .demo-input;
-                        background: $colorWhite;
-                        color: rgba(0, 0, 0, 0.6);
-                    }
-                    .demo-input3 {
-                        @extend .demo-input;
-                        color: rgba(0, 0, 0, 0.38);
-                        background: $colorWhite;
-    
-                    }
-                }
-                .form-desc {
-                    width: 496px;
+        .desktop {
+            .form-desc {
+                width: 496px;
 
-                    h2 {
-                        font-size: 40px;
-                        line-height: 60px;
-                        margin: 1rem 0;
-                    }
-                    p{
-                        width: 394px;
-                        font-size: 24px;
-                        line-height: 36px;
-                        font-weight: 400;
-                    }
+                h2 {
+                    font-size: 40px;
+                    line-height: 60px;
+                    margin: 1rem 0;
+                }
+                p{
+                    width: 394px;
+                    font-size: 24px;
+                    line-height: 36px;
+                    font-weight: 400;
                 }
             }
-           
         }
     }
     .rewards-container {
