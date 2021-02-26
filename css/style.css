@@ -47,27 +47,30 @@ body {
 #bootstrap-overrides .step1-container {
   background: #8E7CB5;
   color: #FFFFFF; }
-  #bootstrap-overrides .step1-container .container {
-    height: 392px;
-    padding-top: 93px; }
-    #bootstrap-overrides .step1-container .container h2 {
-      width: 599px;
-      font-size: 40px;
-      line-height: 56px; }
-    #bootstrap-overrides .step1-container .container .desc {
-      font-size: 16px;
-      width: 492px;
-      font-weight: 400;
-      line-height: 24px;
-      margin-left: auto; }
-      #bootstrap-overrides .step1-container .container .desc a {
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 30px;
-        color: #FFFFFF;
-        padding-right: 1rem; }
-      #bootstrap-overrides .step1-container .container .desc img {
-        vertical-align: unset; }
+  #bootstrap-overrides .step1-container .desktop {
+    height: 392px; }
+    #bootstrap-overrides .step1-container .desktop .row {
+      height: inherit; }
+      #bootstrap-overrides .step1-container .desktop .row h2 {
+        width: 599px;
+        font-size: 40px;
+        line-height: 56px;
+        margin-bottom: 1rem;
+        margin-top: 93px; }
+      #bootstrap-overrides .step1-container .desktop .row .desc {
+        font-size: 16px;
+        width: 492px;
+        font-weight: 400;
+        line-height: 24px;
+        margin-left: auto; }
+        #bootstrap-overrides .step1-container .desktop .row .desc a {
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 30px;
+          color: #FFFFFF;
+          padding-right: 1rem; }
+        #bootstrap-overrides .step1-container .desktop .row .desc img {
+          vertical-align: unset; }
 
 #bootstrap-overrides .step2-container .content .row {
   height: 480px; }
@@ -193,6 +196,34 @@ body {
       line-height: 24px;
       color: #FFFFFF; }
 
+@media screen and (max-width: 1200px) {
+  #bootstrap-overrides .step1-container .mobile {
+    height: 333px; }
+    #bootstrap-overrides .step1-container .mobile p {
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: 400;
+      margin-bottom: 24px; }
+    #bootstrap-overrides .step1-container .mobile .label {
+      font-size: 14px;
+      line-height: 21px;
+      font-weight: 400;
+      margin-bottom: 8px; }
+    #bootstrap-overrides .step1-container .mobile .form .form-select {
+      width: 257px;
+      height: 40px;
+      padding: 8px 16px;
+      border-radius: 21px;
+      color: rgba(0, 0, 0, 0.6); }
+    #bootstrap-overrides .step1-container .mobile .form .btn {
+      font-size: 16px;
+      line-height: 24px;
+      padding: 8px 16px;
+      background: #4E3F6B;
+      border-radius: 21px;
+      color: #FFFFFF;
+      margin-left: 16px; } }
+
 @media screen and (max-width: 992px) {
   #bootstrap-overrides header .navbar .navbar-brand img {
     width: 102px; }
@@ -216,4 +247,7 @@ body {
     #bootstrap-overrides .main-container .text .btn {
       font-size: 16px;
       line-height: 24px;
-      padding: 8px 37px; } }
+      padding: 8px 37px; }
+  #bootstrap-overrides .step1-container .desktop h2 {
+    font-size: 24px;
+    line-height: 36px; } }

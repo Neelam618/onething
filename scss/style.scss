@@ -73,30 +73,33 @@ body {
     .step1-container {
         background: #8E7CB5;
         color: $colorWhite;
-        .container {
+        .desktop {
             height: 392px;
-            padding-top: 93px;
-
-            h2 {
-                width: 599px;
-                font-size: 40px;
-                line-height: 56px;
-            }
-            .desc {
-                font-size: 16px;
-                width: 492px;
-                font-weight: 400;
-                line-height: 24px;
-                margin-left: auto;
-                a {
-                    font-weight: 500;
-                    font-size: 20px;
-                    line-height: 30px;
-                    color: $colorWhite;
-                    padding-right: 1rem;
+            .row {
+                height: inherit;
+                h2 {
+                    width: 599px;
+                    font-size: 40px;
+                    line-height: 56px;
+                    margin-bottom: 1rem;
+                    margin-top: 93px;
                 }
-                img{
-                    vertical-align: unset;
+                .desc {
+                    font-size: 16px;
+                    width: 492px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    margin-left: auto;
+                    a {
+                        font-weight: 500;
+                        font-size: 20px;
+                        line-height: 30px;
+                        color: $colorWhite;
+                        padding-right: 1rem;
+                    }
+                    img{
+                        vertical-align: unset;
+                    }
                 }
             }
         }
@@ -275,6 +278,48 @@ body {
         }
     }
 }
+@media screen and (max-width:1200px) {
+    #bootstrap-overrides {
+        .step1-container {
+            .mobile {
+                height: 333px;
+                p {
+                    font-size: 16px;
+                    line-height: 24px;
+                    font-weight: 400;
+                    margin-bottom: 24px;
+                }
+                .label {
+                    font-size: 14px;
+                    line-height: 21px;
+                    font-weight: 400;
+                    margin-bottom: 8px;
+                }
+                .form {
+                    .form-select {
+                        width: 257px;
+                        height: 40px;
+                        padding: 8px 16px;
+                        border-radius: 21px;
+                        color: rgba(0, 0, 0, 0.6);
+                    }
+                    .btn {
+                        font-size: 16px;
+                        line-height: 24px;
+                        padding: 8px 16px;
+                        background: #4E3F6B;
+                        border-radius: 21px;
+                        color: $colorWhite;
+                        margin-left: 16px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
 @media screen and (max-width:992px) {
     #bootstrap-overrides {
         header {
@@ -301,8 +346,6 @@ body {
         }
     }
 }
-
-
  @media screen and (max-width:576px) {
     #bootstrap-overrides {
         .main-container {
@@ -327,14 +370,18 @@ body {
                 }
             }
         }
+        .step1-container {
+            .desktop {
+                // height: 392px;
+                // padding-top: 93px;
+                h2 {
+                    // width: 599px;
+                    font-size: 24px;
+                    line-height: 36px;
+                }
+                .desc {}
+            }
+        }
     }
-
 }
-        //    .main-container {
-    //       .image {
-    //           img {
-    //             transform: scale(0.565);
-    //           }
-    //       } 
-    //    } 
 
