@@ -150,6 +150,34 @@ body {
         background: #F7F3FF;
         .row {
             height: 480px;
+            .carousel-indicators {
+                position: initial;
+                justify-content: center;
+                margin-top: 59px;
+                button {
+                    width: 73.4px;
+                    height: 46.71px;
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    background-position: center;
+                    opacity: 1;
+                    margin-right: 40px;
+
+                    &[data-bs-slide-to="0"]{
+                        background-image: url(../img/cc-1.svg);
+                    }
+                    &[data-bs-slide-to="1"]{
+                        background-image: url(../img/cc-2.svg);
+                    }
+                    &[data-bs-slide-to="2"]{
+                        background-image: url(../img/cc-3.svg);
+                    }
+                    &[data-bs-slide-to="3"]{
+                        background-image: url(../img/cc-4.svg);
+                        margin-right: 0;
+                    }
+                }
+            }
             .select-style {
                 width: 495px;
                 h2 {
