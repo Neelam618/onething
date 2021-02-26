@@ -225,7 +225,9 @@ body {
         color: inherit;
         margin-right: 11.33px; }
       #bootstrap-overrides .step2-container .mobile img {
-        vertical-align: unset; } }
+        vertical-align: unset; }
+  #bootstrap-overrides .rewards-container .row {
+    height: fit-content; } }
 
 @media screen and (max-width: 992px) {
   #bootstrap-overrides header .navbar .navbar-brand img {
