@@ -72,37 +72,39 @@ body {
         #bootstrap-overrides .step1-container .desktop .row .desc img {
           vertical-align: unset; }
 
-#bootstrap-overrides .step2-container .content .row {
-  height: 480px; }
-  #bootstrap-overrides .step2-container .content .row .demo-form {
-    height: inherit;
-    margin-right: auto;
-    padding: 63px 124px 63px 208px;
-    background: #BFE1FF; }
-    #bootstrap-overrides .step2-container .content .row .demo-form .demo-input, #bootstrap-overrides .step2-container .content .row .demo-form .demo-input1, #bootstrap-overrides .step2-container .content .row .demo-form .demo-input2, #bootstrap-overrides .step2-container .content .row .demo-form .demo-input3 {
-      height: 64px;
-      width: 400px;
-      font-size: 24px;
-      line-height: 32px;
-      padding: 16px 113px 16px 16px;
-      border-radius: 8px; }
-    #bootstrap-overrides .step2-container .content .row .demo-form .demo-input1, #bootstrap-overrides .step2-container .content .row .demo-form .demo-input2 {
-      background: #FFFFFF;
-      color: rgba(0, 0, 0, 0.6); }
-    #bootstrap-overrides .step2-container .content .row .demo-form .demo-input3 {
-      color: rgba(0, 0, 0, 0.38);
-      background: #FFFFFF; }
-  #bootstrap-overrides .step2-container .content .row .form-desc {
-    width: 496px; }
-    #bootstrap-overrides .step2-container .content .row .form-desc h2 {
-      font-size: 40px;
-      line-height: 60px;
-      margin: 1rem 0; }
-    #bootstrap-overrides .step2-container .content .row .form-desc p {
-      width: 394px;
-      font-size: 24px;
-      line-height: 36px;
-      font-weight: 400; }
+#bootstrap-overrides .step2-container {
+  background-image: linear-gradient(to right, #bfe1fe 50%, transparent 50%); }
+  #bootstrap-overrides .step2-container .content {
+    height: 480px; }
+    #bootstrap-overrides .step2-container .content .row {
+      height: 480px; }
+      #bootstrap-overrides .step2-container .content .row .demo-form {
+        height: 480px;
+        padding: 64px 100px;
+        background: #BFE1FF; }
+        #bootstrap-overrides .step2-container .content .row .demo-form .demo-input, #bootstrap-overrides .step2-container .content .row .demo-form .demo-input1, #bootstrap-overrides .step2-container .content .row .demo-form .demo-input2, #bootstrap-overrides .step2-container .content .row .demo-form .demo-input3 {
+          width: 400px;
+          font-size: 24px;
+          line-height: 32px;
+          padding: 16px 113px 16px 16px;
+          border-radius: 8px; }
+        #bootstrap-overrides .step2-container .content .row .demo-form .demo-input1, #bootstrap-overrides .step2-container .content .row .demo-form .demo-input2 {
+          background: #FFFFFF;
+          color: rgba(0, 0, 0, 0.6); }
+        #bootstrap-overrides .step2-container .content .row .demo-form .demo-input3 {
+          color: rgba(0, 0, 0, 0.38);
+          background: #FFFFFF; }
+      #bootstrap-overrides .step2-container .content .row .form-desc {
+        width: 496px; }
+        #bootstrap-overrides .step2-container .content .row .form-desc h2 {
+          font-size: 40px;
+          line-height: 60px;
+          margin: 1rem 0; }
+        #bootstrap-overrides .step2-container .content .row .form-desc p {
+          width: 394px;
+          font-size: 24px;
+          line-height: 36px;
+          font-weight: 400; }
 
 #bootstrap-overrides .rewards-container {
   background: #FFE4E7; }

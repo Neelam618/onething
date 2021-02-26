@@ -105,16 +105,17 @@ body {
         }
     }
     .step2-container {
+        background-image: linear-gradient(to right, #bfe1fe 50%, transparent 50%);
         .content{
+            height: 480px;
             .row {
                 height: 480px;
                 .demo-form {
-                    height: inherit;
-                    margin-right: auto;
-                    padding: 63px 124px 63px 208px;
+                    height: 480px;
+                    padding: 64px 100px;
                     background: #BFE1FF;
                     .demo-input {
-                        height: 64px;
+                        // height: 64px;
                         width: 400px;
                         font-size: 24px;
                         line-height: 32px;
