@@ -563,6 +563,22 @@ body {
             }
             
         }
+        .faq-container {
+            .accordion{
+                .accordion-item {
+                    .accordion-header {
+                        .accordion-button {
+                            font-size: 14px;
+                            line-height: 19.6px;
+                            &::after {
+                                background-size: 10px 5px;
+                                background-position: center;
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
