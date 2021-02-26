@@ -176,6 +176,9 @@ body {
                         background-image: url(../img/cc-4.svg);
                         margin-right: 0;
                     }
+                    &.active {
+                        border: 1px solid rgba(0, 0, 0, 0.6);
+                    }
                 }
             }
             .select-style {

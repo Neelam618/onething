@@ -125,6 +125,8 @@ body {
         #bootstrap-overrides .styles-container .row .carousel-indicators button[data-bs-slide-to="3"] {
           background-image: url(../img/cc-4.svg);
           margin-right: 0; }
+        #bootstrap-overrides .styles-container .row .carousel-indicators button.active {
+          border: 1px solid rgba(0, 0, 0, 0.6); }
     #bootstrap-overrides .styles-container .row .select-style {
       width: 495px; }
       #bootstrap-overrides .styles-container .row .select-style h2 {
