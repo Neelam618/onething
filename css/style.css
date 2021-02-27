@@ -113,7 +113,7 @@ body {
       height: 41px;
       opacity: 1;
       margin-right: 40px;
-      padding: 2px;
+      padding: 3.3px;
       border: 1px solid transparent;
       background: #F7F3FF;
       border-radius: 3px; }
@@ -165,14 +165,13 @@ body {
     color: rgba(0, 0, 0, 0.87); }
 
 #bootstrap-overrides .footer-container {
-  background: #12193B;
-  height: 550px; }
+  background: #12193B; }
   #bootstrap-overrides .footer-container .title {
     padding: 56px 0 48px 0;
     color: #FFFFFF; }
     #bootstrap-overrides .footer-container .title h3 {
       font-size: 32px;
-      line-height: 40px; }
+      line-height: 48px; }
     #bootstrap-overrides .footer-container .title p {
       font-size: 20px;
       line-height: 32px;
@@ -190,7 +189,7 @@ body {
     color: #FFFFFF;
     opacity: 0.5; }
   #bootstrap-overrides .footer-container .row {
-    margin: 65px 0 80px 0; }
+    padding: 65px 0 80px 0; }
     #bootstrap-overrides .footer-container .row .col .section a {
       margin-bottom: 24px;
       line-height: 24px;
@@ -350,7 +349,7 @@ body {
       #bootstrap-overrides .styles-container .row .carousel-indicators button {
         width: 40px;
         height: 24px;
-        margin-right: 25px; }
+        margin-right: 21.7px; }
         #bootstrap-overrides .styles-container .row .carousel-indicators button img {
           width: 40px; }
     #bootstrap-overrides .styles-container .row .select-style {
@@ -366,4 +365,8 @@ body {
       line-height: 19.6px; }
       #bootstrap-overrides .faq-container .accordion .accordion-item .accordion-header .accordion-button::after {
         background-size: 10px 5px;
-        background-position: center; } }
+        background-position: center; }
+    #bootstrap-overrides .footer-container .title {
+      padding-top: 32px; }
+    #bootstrap-overrides .footer-container .row {
+      margin-top: 40px; } }
