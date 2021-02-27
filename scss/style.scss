@@ -339,6 +339,11 @@ body {
                     line-height: 36px;
                     margin-bottom: 32px;
                 }
+                // .demo-form {
+                //     img {
+                //         width: -webkit-fill-available;;
+                //     }
+                // }
                 h3 {
                     margin-top: 1rem;
                 }
@@ -469,6 +474,15 @@ body {
                 height: 96vh!important;
             }
         }
+        // .step2-container {
+        //     .mobile {
+        //         .demo-form {
+        //             img {
+        //                 width: -webkit-fill-available;;
+        //             }
+        //         }
+        //     }
+        // }
     }
 }
 @media screen and (max-width:768px) {
@@ -478,6 +492,15 @@ body {
                 height: 103.2vh!important;
             }
        }
+       .step2-container {
+        .mobile {
+            .demo-form {
+                img {
+                    width: -webkit-fill-available;;
+                }
+            }
+        }
+    }
     }
 }
 

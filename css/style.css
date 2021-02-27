@@ -317,7 +317,9 @@ body {
 
 @media screen and (max-width: 768px) {
   #bootstrap-overrides .hero .main-container {
-    height: 103.2vh !important; } }
+    height: 103.2vh !important; }
+  #bootstrap-overrides .step2-container .mobile .demo-form img {
+    width: -webkit-fill-available; } }
 
 @media screen and (max-width: 576px) {
   #bootstrap-overrides {
