@@ -203,7 +203,7 @@ body {
     #bootstrap-overrides .main-container .text {
       margin-top: auto; }
     #bootstrap-overrides .main-container .image img {
-      transform: scale(0.664);
+      transform: scale(0.544);
       transform-origin: top; }
   #bootstrap-overrides .step1-container .mobile {
     height: 333px; }
