@@ -9,18 +9,18 @@ body {
     #bootstrap-overrides .hero header .navbar .navbar-toggler .navbar-toggler-icon {
       background-image: url(../img/menu.svg); }
   #bootstrap-overrides .hero header .navbar .navbar-collapse .navbar-nav {
-    padding: 40px 0;
+    padding: 2.5rem 0;
     align-items: center; }
     #bootstrap-overrides .hero header .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
       color: #262A2F;
-      padding: 0 20px; }
+      padding: 0 1.25rem; }
     #bootstrap-overrides .hero header .navbar .navbar-collapse .navbar-nav .nav-item .btn {
       background-color: #F2707C;
-      padding: 8px 24px;
+      padding: 0.5rem 1.5rem;
       font-weight: 500;
       color: #FFFFFF;
       border-radius: 4px;
-      margin-left: 20px; }
+      margin-left: 1.25rem; }
   #bootstrap-overrides .hero .main-container {
     height: 83.6vh; }
     #bootstrap-overrides .hero .main-container .row {
