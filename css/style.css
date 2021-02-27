@@ -72,7 +72,8 @@ body {
           color: #FFFFFF;
           padding-right: 1rem; }
         #bootstrap-overrides .step1-container .desktop .row .desc .start-btn-white img {
-          vertical-align: unset; }
+          vertical-align: unset;
+          width: 7px; }
 
 #bootstrap-overrides .step2-container {
   background-image: linear-gradient(to right, #bfe1fe 50%, transparent 50%); }
@@ -236,23 +237,27 @@ body {
     #bootstrap-overrides .step2-container .mobile {
       padding: 32px 0 48px 0; }
       #bootstrap-overrides .step2-container .mobile h2 {
-        line-height: 36px;
-        margin-bottom: 32px; }
+        line-height: 60px;
+        margin-bottom: 32px;
+        font-size: 42px; }
       #bootstrap-overrides .step2-container .mobile .demo-form img {
         width: -webkit-fill-available; }
       #bootstrap-overrides .step2-container .mobile h3 {
+        font-size: 40px;
+        line-height: 60px;
         margin-top: 1rem; }
       #bootstrap-overrides .step2-container .mobile p {
-        font-size: 16px;
-        line-height: 24px;
-        font-weight: 400; }
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 36px; }
       #bootstrap-overrides .step2-container .mobile .start-btn a {
-        font-size: 16px;
+        font-size: 24px;
         line-height: 24px;
         color: inherit;
         margin-right: 11.33px; }
       #bootstrap-overrides .step2-container .mobile .start-btn img {
-        vertical-align: unset; }
+        vertical-align: unset;
+        width: 10px; }
   #bootstrap-overrides .rewards-container {
     background: none; }
     #bootstrap-overrides .rewards-container .row {
@@ -260,12 +265,13 @@ body {
       #bootstrap-overrides .rewards-container .row .rewards-text {
         margin-bottom: 48px; }
         #bootstrap-overrides .rewards-container .row .rewards-text .start-btn a {
+          font-size: 24px;
+          line-height: 24px;
           color: inherit;
-          margin-right: 11.33px;
-          font-size: 16px;
-          line-height: 24px; }
+          margin-right: 11.33px; }
         #bootstrap-overrides .rewards-container .row .rewards-text .start-btn img {
-          vertical-align: unset; }
+          vertical-align: unset;
+          width: 10px; }
       #bootstrap-overrides .rewards-container .row .slideshow {
         background: #fae4e7; }
         #bootstrap-overrides .rewards-container .row .slideshow .carousel {
@@ -277,12 +283,13 @@ body {
       background: #F7F3FF;
       padding: 30px 0; }
     #bootstrap-overrides .styles-container .row .start-btn a {
+      font-size: 24px;
+      line-height: 24px;
       color: inherit;
-      margin-right: 11.33px;
-      font-size: 16px;
-      line-height: 24px; }
+      margin-right: 11.33px; }
     #bootstrap-overrides .styles-container .row .start-btn img {
-      vertical-align: unset; }
+      vertical-align: unset;
+      width: 10px; }
   #bootstrap-overrides .mobile-container {
     background: #7C7EB5;
     color: #FFFFFF;
@@ -303,7 +310,8 @@ body {
       color: #FFFFFF;
       padding-right: 1rem; }
     #bootstrap-overrides .mobile-container .start-btn-white img {
-      vertical-align: unset; } }
+      vertical-align: unset;
+      width: 7px; } }
 
 @media screen and (max-width: 992px) {
   #bootstrap-overrides .hero header .navbar .navbar-brand img {
@@ -350,14 +358,25 @@ body {
     #bootstrap-overrides .step2-container .mobile h3 {
       font-size: 18px;
       line-height: 21px; }
+    #bootstrap-overrides .step2-container .mobile p {
+      font-size: 16px;
+      line-height: 24px; }
     #bootstrap-overrides .step2-container .mobile .start-btn a {
+      font-size: 16px;
       color: inherit; }
+    #bootstrap-overrides .step2-container .mobile .start-btn img {
+      width: auto; }
     #bootstrap-overrides .rewards-container .row .rewards-text h2 {
       font-size: 18px;
       line-height: 21px; }
     #bootstrap-overrides .rewards-container .row .rewards-text p {
       font-size: 16px;
       line-height: 24px; }
+    #bootstrap-overrides .rewards-container .row .rewards-text .start-btn a {
+      font-size: 16px;
+      color: inherit; }
+    #bootstrap-overrides .rewards-container .row .rewards-text .start-btn img {
+      width: auto; }
     #bootstrap-overrides .rewards-container .row .slideshow .carousel-inner .carousel-item img {
       width: 184px; }
     #bootstrap-overrides .styles-container .row .carousel-inner .carousel-item img {
@@ -376,6 +395,11 @@ body {
     #bootstrap-overrides .styles-container .row .select-style p {
       font-size: 16px;
       line-height: 24px; }
+    #bootstrap-overrides .styles-container .row .select-style .start-btn a {
+      font-size: 16px;
+      color: inherit; }
+    #bootstrap-overrides .styles-container .row .select-style .start-btn img {
+      width: auto; }
     #bootstrap-overrides .faq-container {
       margin: 48px 0 42px 0; }
       #bootstrap-overrides .faq-container .accordion .accordion-item .accordion-header .accordion-button {
@@ -388,4 +412,4 @@ body {
     #bootstrap-overrides .footer-container .title {
       padding-top: 32px; }
     #bootstrap-overrides .footer-container .row {
-      padding: 40px 0 37px 0; } }
+      padding: 24px 0 37px 0; } }
