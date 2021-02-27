@@ -105,7 +105,6 @@ body {
                         }
                         img {
                             vertical-align: unset;
-                            width: 7px;
                         }
                     }
                 }
@@ -137,16 +136,16 @@ body {
         .row {
             height: 608px;
             .rewards-text {
-                    h2 {
-                        margin: 1rem 0;
-                        font-size: 40px;
-                        line-height: 60px;
-                    }
-                    p {
-                        font-size: 24px;
-                        line-height: 36px;
-                        font-weight: 400;
-                    }
+                h2 {
+                    margin: 1rem 0;
+                    font-size: 40px;
+                    line-height: 60px;
+                }
+                p {
+                    font-size: 24px;
+                    line-height: 36px;
+                    font-weight: 400;
+                }
             }
             .slideshow {
                 width: 100%;
@@ -181,7 +180,7 @@ body {
                 }
             }
             .select-style {
-                margin-bottom: 48px;
+                width: 495px;
                 h2 {
                     margin: 1rem 0;
                     font-size: 40px;
@@ -333,37 +332,39 @@ body {
         .step2-container {
             background-image: unset;
             .mobile {
-                padding: 32px 0 48px 0;
                 h2 {
                     line-height: 60px;
-                    margin-bottom: 32px;
-                    font-size: 42px;
+                    margin: 32px 0;
+                    font-size: 40px;
                 }
                 .demo-form {
                     img {
                         width: -webkit-fill-available;;
                     }
                 }
-                h3 {
-                    font-size: 40px;
-                    line-height: 60px;
-                    margin-top: 1rem;
-                }
-                p{
-                    font-weight: 400;
-                    font-size: 24px;
-                    line-height: 36px;
-                }
-                .start-btn {
-                    a {
-                        font-size: 24px;
-                        line-height: 24px;
-                        color: inherit;
-                        margin-right: 11.33px;
+                .demo-form-text {
+                    margin-bottom: 100px;
+                    h3 {
+                        font-size: 40px;
+                        line-height: 60px;
+                        margin-top: 1rem;
                     }
-                    img {
-                        vertical-align: unset;
-                        width: 10px;
+                    p{
+                        font-weight: 400;
+                        font-size: 24px;
+                        line-height: 36px;
+                    }
+                    .start-btn {
+                        a {
+                            font-size: 24px;
+                            line-height: 24px;
+                            color: inherit;
+                            margin-right: 11.33px;
+                        }
+                        img {
+                            vertical-align: unset;
+                            width: 10px;
+                        }
                     }
                 }
             }
@@ -373,7 +374,7 @@ body {
             .row {
                 height: fit-content;
                 .rewards-text {
-                    margin-bottom: 48px;
+                    margin-bottom: 100px;
                     .start-btn {
                         a {
                             font-size: 24px;
@@ -414,6 +415,10 @@ body {
                         vertical-align: unset;
                         width: 10px;
                     }
+                }
+                .select-style {
+                    width: auto;
+                    margin-bottom: 100px;
                 }
             }
         }
@@ -480,15 +485,6 @@ body {
                 height: 96vh!important;
             }
         }
-        // .step2-container {
-        //     .mobile {
-        //         .demo-form {
-        //             img {
-        //                 width: -webkit-fill-available;;
-        //             }
-        //         }
-        //     }
-        // }
     }
 }
 @media screen and (max-width:768px) {
@@ -498,15 +494,6 @@ body {
                 height: 103.2vh!important;
             }
        }
-    //    .step2-container {
-    //         .mobile {
-    //             .demo-form {
-    //                 img {
-    //                     width: -webkit-fill-available;;
-    //                 }
-    //             }
-    //         }
-    //     }
     }
 }
 
@@ -558,21 +545,24 @@ body {
                     font-size: 24px;
                     line-height: 36px;
                 }
-                h3 {
-                    font-size: 18px;
-                    line-height: 21px;
-                }
-                p {
-                    font-size: 16px;
-                    line-height: 24px;
-                }
-                .start-btn {
-                    a {
-                        font-size: 16px;
-                        color: inherit;
+                .demo-form-text {
+                    margin-bottom: 48px;
+                    h3 {
+                        font-size: 18px;
+                        line-height: 21px;
                     }
-                    img {
-                        width: auto;
+                    p {
+                        font-size: 16px;
+                        line-height: 24px;
+                    }
+                    .start-btn {
+                        a {
+                            font-size: 16px;
+                            color: inherit;
+                        }
+                        img {
+                            width: auto;
+                        }
                     }
                 }
             }
@@ -580,6 +570,7 @@ body {
         .rewards-container {
             .row {
                 .rewards-text {
+                    margin-bottom: 48px;
                     h2 {
                         font-size: 18px;
                         line-height: 21px;
@@ -630,6 +621,7 @@ body {
                     }
                 }
                 .select-style {
+                    margin-bottom: 48px;
                     h2 {
                         font-size: 18px;
                         line-height: 21px;
