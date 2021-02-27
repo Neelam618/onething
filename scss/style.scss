@@ -268,7 +268,7 @@ body {
             opacity: 0.5;
         }
         .row {
-            padding: 65px 0 80px 0;
+            padding: 49px 0 56px 0;
             .col {
                 .section {
                     a {
@@ -337,11 +337,11 @@ body {
                     line-height: 36px;
                     margin-bottom: 32px;
                 }
-                // .demo-form {
-                //     img {
-                //         width: -webkit-fill-available;;
-                //     }
-                // }
+                .demo-form {
+                    img {
+                        width: -webkit-fill-available;;
+                    }
+                }
                 h3 {
                     margin-top: 1rem;
                 }
@@ -490,15 +490,15 @@ body {
                 height: 103.2vh!important;
             }
        }
-       .step2-container {
-        .mobile {
-            .demo-form {
-                img {
-                    width: -webkit-fill-available;;
-                }
-            }
-        }
-    }
+    //    .step2-container {
+    //         .mobile {
+    //             .demo-form {
+    //                 img {
+    //                     width: -webkit-fill-available;;
+    //                 }
+    //             }
+    //         }
+    //     }
     }
 }
 
@@ -640,7 +640,7 @@ body {
                 padding-top: 32px;
             }
             .row {
-                padding: 40px 0 37px 0;
+                padding: 24px 0 37px 0;
             }
         }
     }
