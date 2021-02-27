@@ -2,47 +2,50 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 500; }
 
-#bootstrap-overrides header .navbar .navbar-toggler {
-  border: none; }
-  #bootstrap-overrides header .navbar .navbar-toggler .navbar-toggler-icon {
-    background-image: url(../img/menu.svg); }
-
-#bootstrap-overrides header .navbar .navbar-collapse .navbar-nav {
-  padding: 40px 0;
-  align-items: center; }
-  #bootstrap-overrides header .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
-    color: #262A2F;
-    padding: 0 20px; }
-  #bootstrap-overrides header .navbar .navbar-collapse .navbar-nav .nav-item .btn {
-    background-color: #F2707C;
-    padding: 8px 24px;
-    font-weight: 500;
-    color: #FFFFFF;
-    border-radius: 4px;
-    margin-left: 20px; }
-
-#bootstrap-overrides .main-container {
-  margin: 80px auto; }
-  #bootstrap-overrides .main-container .text h1 {
-    font-size: 48px;
-    line-height: 62.4px;
-    margin-bottom: 1rem; }
-  #bootstrap-overrides .main-container .text p {
-    width: 496px;
-    font-size: 20px;
-    line-height: 30px;
-    font-weight: 400; }
-  #bootstrap-overrides .main-container .text .btn {
-    background-color: #F2707C;
-    padding: 8px 40px;
-    border-radius: 30px;
-    color: #FFFFFF;
-    font-weight: 500;
-    font-size: 18px;
-    margin-top: 1rem;
-    margin-bottom: 24px; }
-  #bootstrap-overrides .main-container .image img {
-    width: -webkit-fill-available; }
+#bootstrap-overrides .hero {
+  height: 100vh; }
+  #bootstrap-overrides .hero header .navbar .navbar-toggler {
+    border: none; }
+    #bootstrap-overrides .hero header .navbar .navbar-toggler .navbar-toggler-icon {
+      background-image: url(../img/menu.svg); }
+  #bootstrap-overrides .hero header .navbar .navbar-collapse .navbar-nav {
+    padding: 40px 0;
+    align-items: center; }
+    #bootstrap-overrides .hero header .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
+      color: #262A2F;
+      padding: 0 20px; }
+    #bootstrap-overrides .hero header .navbar .navbar-collapse .navbar-nav .nav-item .btn {
+      background-color: #F2707C;
+      padding: 8px 24px;
+      font-weight: 500;
+      color: #FFFFFF;
+      border-radius: 4px;
+      margin-left: 20px; }
+  #bootstrap-overrides .hero .main-container {
+    height: 83.6vh; }
+    #bootstrap-overrides .hero .main-container .row {
+      height: inherit; }
+      #bootstrap-overrides .hero .main-container .row .text h1 {
+        font-size: 48px;
+        line-height: 62.4px;
+        margin-bottom: 1rem; }
+      #bootstrap-overrides .hero .main-container .row .text p {
+        width: 496px;
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 400; }
+      #bootstrap-overrides .hero .main-container .row .text .btn {
+        background-color: #F2707C;
+        padding: 8px 40px;
+        border-radius: 30px;
+        color: #FFFFFF;
+        font-weight: 500;
+        font-size: 18px;
+        margin-top: 1rem;
+        margin-bottom: 24px; }
+      #bootstrap-overrides .hero .main-container .row .image img {
+        width: 100%;
+        max-width: 600px; }
 
 #bootstrap-overrides .step1-container {
   background: #8E7CB5;
@@ -196,6 +199,10 @@ body {
       color: #FFFFFF; }
 
 @media screen and (max-width: 1200px) {
+  #bootstrap-overrides .main-container {
+    height: 91.7vh !important; }
+    #bootstrap-overrides .main-container .text {
+      margin-top: auto; }
   #bootstrap-overrides .step1-container .mobile {
     height: 333px; }
     #bootstrap-overrides .step1-container .mobile h2 {
@@ -297,30 +304,41 @@ body {
       vertical-align: unset; } }
 
 @media screen and (max-width: 992px) {
-  #bootstrap-overrides header .navbar .navbar-brand img {
+  #bootstrap-overrides .hero header .navbar .navbar-brand img {
     width: 102px; }
-  #bootstrap-overrides header .navbar .navbar-collapse .navbar-nav {
+  #bootstrap-overrides .hero header .navbar .navbar-collapse .navbar-nav {
     padding: 25px 0; }
-    #bootstrap-overrides header .navbar .navbar-collapse .navbar-nav .nav-item .btn {
-      margin-left: 0; } }
+    #bootstrap-overrides .hero header .navbar .navbar-collapse .navbar-nav .nav-item .btn {
+      margin-left: 0; }
+  #bootstrap-overrides .hero .main-container {
+    height: 96vh !important; } }
+
+@media screen and (max-width: 768px) {
+  #bootstrap-overrides .hero .main-container {
+    height: 103.2vh !important; } }
 
 @media screen and (max-width: 576px) {
   #bootstrap-overrides {
     color: rgba(0, 0, 0, 0.87); }
-    #bootstrap-overrides .main-container {
+    #bootstrap-overrides .hero .main-container .row {
       margin: 30px auto;
       margin-bottom: 48px; }
-      #bootstrap-overrides .main-container .text h1 {
-        font-size: 32px;
-        line-height: 44.8px; }
-      #bootstrap-overrides .main-container .text p {
-        font-size: 17px;
-        width: 329px;
-        line-height: 25px; }
-      #bootstrap-overrides .main-container .text .btn {
-        font-size: 16px;
-        line-height: 24px;
-        padding: 8px 37px; }
+      #bootstrap-overrides .hero .main-container .row .text {
+        margin-top: inherit; }
+        #bootstrap-overrides .hero .main-container .row .text h1 {
+          font-size: 32px;
+          line-height: 44.8px; }
+        #bootstrap-overrides .hero .main-container .row .text p {
+          font-size: 17px;
+          width: 329px;
+          line-height: 25px; }
+        #bootstrap-overrides .hero .main-container .row .text .btn {
+          font-size: 16px;
+          line-height: 24px;
+          padding: 8px 37px; }
+      #bootstrap-overrides .hero .main-container .row .image img {
+        width: 343px;
+        margin-bottom: 10em; }
     #bootstrap-overrides .step1-container .mobile h2 {
       font-size: 24px;
       line-height: 36px; }

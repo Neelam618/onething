@@ -7,69 +7,75 @@ body {
    font-weight: 500;
 }
 #bootstrap-overrides {
-    header {
-        .navbar {
-            .navbar-toggler {
-                border: none;
-                .navbar-toggler-icon {
-                    background-image: url(../img/menu.svg);
+    .hero {
+        height: 100vh;
+        header {
+            .navbar {
+                .navbar-toggler {
+                    border: none;
+                    .navbar-toggler-icon {
+                        background-image: url(../img/menu.svg);
+                    }
                 }
-            }
-            .navbar-collapse {
-                .navbar-nav {
-                    padding: 40px 0;
-                    align-items: center;
-                    .nav-item {
-                        .nav-link {
-                            color: #262A2F;
-                            padding: 0 20px;
-                        }
-                        .btn {
-                            background-color: $colorSalmon;
-                            padding: 8px 24px;
-                            font-weight: 500;
-                            color: $colorWhite;
-                            border-radius: 4px;
-                            margin-left: 20px;
+                .navbar-collapse {
+                    .navbar-nav {
+                        padding: 40px 0;
+                        align-items: center;
+                        .nav-item {
+                            .nav-link {
+                                color: #262A2F;
+                                padding: 0 20px;
+                            }
+                            .btn {
+                                background-color: $colorSalmon;
+                                padding: 8px 24px;
+                                font-weight: 500;
+                                color: $colorWhite;
+                                border-radius: 4px;
+                                margin-left: 20px;
 
+                            }
                         }
                     }
                 }
             }
         }
-    }
-    .main-container {
-        margin: 80px auto;
-        .text {
-            h1 {
-                font-size: 48px;
-                line-height: 62.4px;
-                margin-bottom: 1rem;
-            }
-            p{
-                width: 496px;
-                font-size: 20px;
-                line-height: 30px;
-                font-weight: 400;
-            }
-            .btn {
-                background-color: $colorSalmon;
-                padding: 8px 40px;
-                border-radius: 30px;
-                color: $colorWhite;
-                font-weight: 500;
-                font-size: 18px;
-                margin-top: 1rem;
-                margin-bottom: 24px;
+        .main-container {
+            height: 83.6vh;
+            .row {
+                height: inherit;
+                .text {
+                    h1 {
+                        font-size: 48px;
+                        line-height: 62.4px;
+                        margin-bottom: 1rem;
+                    }
+                    p{
+                        width: 496px;
+                        font-size: 20px;
+                        line-height: 30px;
+                        font-weight: 400;
+                    }
+                    .btn {
+                        background-color: $colorSalmon;
+                        padding: 8px 40px;
+                        border-radius: 30px;
+                        color: $colorWhite;
+                        font-weight: 500;
+                        font-size: 18px;
+                        margin-top: 1rem;
+                        margin-bottom: 24px;
+                    }
+                }
+                .image {
+                    img {
+                        width: 100%;
+                        max-width: 600px;
+                    }
+                }
             }
         }
-        .image {
-            img {
-                width: -webkit-fill-available;
-            }
-        }
     }
-
     .step1-container {
         background: #8E7CB5;
         color: $colorWhite;
@@ -147,7 +153,6 @@ body {
             }
         }
     }
-
     .styles-container {
         background: #F7F3FF;
         padding: 70px 0;
@@ -234,7 +239,6 @@ body {
             }
         }
     }
-
     .footer-container {
         background: #12193B;
         .title {
@@ -278,8 +282,20 @@ body {
         }
     }
 }
+
 @media screen and (max-width:1200px) {
     #bootstrap-overrides {
+        .main-container {
+            height: 91.7vh!important;
+            .text {
+                margin-top: auto;
+            }
+            .image {
+                img {
+                    // width: unset;
+                }
+            }
+        }
         .step1-container {
             .mobile {
                 height: 333px;
@@ -431,51 +447,76 @@ body {
 
 @media screen and (max-width:992px) {
     #bootstrap-overrides {
-        header {
-            .navbar {
-                .navbar-brand {
-                    img {
-                        width: 102px;
+        .hero {
+            header {
+                .navbar {
+                    .navbar-brand {
+                        img {
+                            width: 102px;
+                        }
+                    }
+                    .navbar-collapse {
+                        .navbar-nav {
+                            padding: 25px 0;
+                            .nav-item {
+                                .nav-link {
+                                    
+                                }
+                                .btn {
+                                    margin-left: 0;
+                                }
+                            }    
+                        }
                     }
                 }
-                .navbar-collapse {
-                    .navbar-nav {
-                        padding: 25px 0;
-                        .nav-item {
-                            .nav-link {
-                                
-                            }
-                            .btn {
-                                margin-left: 0;
-                            }
-                        }    
-                    }
-                }
+            }
+            .main-container {
+                height: 96vh!important;
             }
         }
     }
 }
+@media screen and (max-width:768px) {
+    #bootstrap-overrides {
+       .hero {
+            .main-container {
+                height: 103.2vh!important;
+            }
+       }
+    }
+}
+
  @media screen and (max-width:576px) {
     #bootstrap-overrides {
         color: rgba(0, 0, 0, 0.87);
-        .main-container {
-            margin: 30px auto;
-            margin-bottom: 48px;
-            .text {
-                h1 {
-                    font-size: 32px;
-                    line-height: 44.8px;
-                }
-                p {
-                    font-size: 17px;
-                    width: 329px;
-                    line-height: 25px;
-                }
-                .btn {
-                    font-size: 16px;
-                    line-height: 24px;
-                    padding: 8px 37px;
-
+        .hero {
+            .main-container {
+                .row {
+                    margin: 30px auto;
+                    margin-bottom: 48px;
+                    .text {
+                        margin-top: inherit;
+                        h1 {
+                            font-size: 32px;
+                            line-height: 44.8px;
+                        }
+                        p {
+                            font-size: 17px;
+                            width: 329px;
+                            line-height: 25px;
+                        }
+                        .btn {
+                            font-size: 16px;
+                            line-height: 24px;
+                            padding: 8px 37px;
+                        }
+                    }
+                    .image {
+                        img {
+                            width: 343px;
+                            margin-bottom: 10em;
+                        }
+                    }
                 }
             }
         }
