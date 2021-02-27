@@ -70,7 +70,6 @@ body {
                 .image {
                     img {
                         width: 100%;
-                        max-width: 600px;
                     }
                 }
             }
@@ -289,6 +288,12 @@ body {
             .text {
                 margin-top: auto;
             }
+            .image {
+                img {
+                    transform: scale(0.664);
+                    transform-origin: top;
+                }
+            } 
         }
         .step1-container {
             .mobile {
@@ -480,6 +485,9 @@ body {
             }
             .main-container {
                 height: 95.9vh!important;
+                .text {
+                   margin-top: 4rem;
+                }
             }
         }
     }
@@ -489,6 +497,14 @@ body {
        .hero {
             .main-container {
                 height: 103.2vh!important;
+                .text {
+                    margin-top: 4rem;
+                }
+                .image {
+                    img {
+                        transform: scale(0.8);
+                    }
+                }
             }
        }
     }
@@ -517,12 +533,6 @@ body {
                             font-size: 16px;
                             line-height: 24px;
                             padding: 8px 37px;
-                        }
-                    }
-                    .image {
-                        img {
-                            width: 343px;
-                            margin-bottom: 10em;
                         }
                     }
                 }
