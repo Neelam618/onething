@@ -93,7 +93,7 @@ body {
   #bootstrap-overrides .rewards-container .row {
     height: 608px; }
     #bootstrap-overrides .rewards-container .row .rewards-text {
-      width: 496px; }
+      min-width: 496px; }
       #bootstrap-overrides .rewards-container .row .rewards-text h2 {
         margin: 1rem 0;
         font-size: 40px;
@@ -102,6 +102,9 @@ body {
         font-size: 24px;
         line-height: 36px;
         font-weight: 400; }
+    #bootstrap-overrides .rewards-container .row .slideshow {
+      width: 100%;
+      max-width: 600px; }
 
 #bootstrap-overrides .styles-container {
   background: #F7F3FF;
@@ -256,7 +259,6 @@ body {
     #bootstrap-overrides .rewards-container .row {
       height: fit-content; }
       #bootstrap-overrides .rewards-container .row .rewards-text {
-        margin-right: 90px;
         margin-bottom: 48px; }
         #bootstrap-overrides .rewards-container .row .rewards-text .start-btn a {
           color: inherit;
@@ -351,7 +353,7 @@ body {
     #bootstrap-overrides .step2-container .mobile .start-btn a {
       color: inherit; }
     #bootstrap-overrides .rewards-container .row .rewards-text {
-      width: 327px; }
+      min-width: 327px; }
       #bootstrap-overrides .rewards-container .row .rewards-text h2 {
         font-size: 18px;
         line-height: 21px; }

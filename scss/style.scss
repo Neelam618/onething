@@ -136,7 +136,7 @@ body {
         .row {
             height: 608px;
             .rewards-text {
-                width: 496px;
+                min-width: 496px;
                     h2 {
                         margin: 1rem 0;
                         font-size: 40px;
@@ -149,7 +149,8 @@ body {
                     }
             }
             .slideshow {
-
+                width: 100%;
+                max-width: 600px;
             }
         }
     }
@@ -290,11 +291,6 @@ body {
             .text {
                 margin-top: auto;
             }
-            .image {
-                img {
-                    // width: unset;
-                }
-            }
         }
         .step1-container {
             .mobile {
@@ -369,7 +365,6 @@ body {
             .row {
                 height: fit-content;
                 .rewards-text {
-                    margin-right: 90px;
                     margin-bottom: 48px;
                     .start-btn {
                         a {
@@ -548,7 +543,7 @@ body {
         .rewards-container {
             .row {
                 .rewards-text {
-                    width: 327px;
+                    min-width: 327px;
                     h2 {
                         font-size: 18px;
                         line-height: 21px;
