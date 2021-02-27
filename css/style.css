@@ -1,3 +1,7 @@
+@font-face {
+  font-family: Nimbus-Sans;
+  src: url(../fonts/nimbus-sans-d-ot-light_32752.ttf); }
+
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 500; }
@@ -47,6 +51,7 @@ body {
         width: 100%; }
 
 #bootstrap-overrides .step1-container {
+  font-family: Nimbus-Sans;
   background: #8E7CB5;
   color: #FFFFFF; }
   #bootstrap-overrides .step1-container .desktop {
@@ -57,7 +62,8 @@ body {
         width: 599px;
         font-size: 40px;
         line-height: 56px;
-        margin-top: 93px; }
+        margin-top: 93px;
+        font-weight: 600; }
       #bootstrap-overrides .step1-container .desktop .row .desc {
         font-size: 16px;
         width: 492px;
@@ -134,14 +140,19 @@ body {
       line-height: 36px;
       font-weight: 400; }
 
+#bootstrap-overrides .mobile-container {
+  font-family: nimbus-sans; }
+
 #bootstrap-overrides .faq-container {
   max-width: 808px;
   margin: 80px auto; }
   #bootstrap-overrides .faq-container h3 {
     font-size: 32px;
     line-height: 48px;
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    font-family: 'Roboto', sans-serif; }
   #bootstrap-overrides .faq-container .accordion .accordion-item .accordion-header .accordion-button {
+    font-family: nimbus-sans;
     color: #F2707C;
     font-size: 20px;
     line-height: 32px;
@@ -167,18 +178,21 @@ body {
     color: rgba(0, 0, 0, 0.87); }
 
 #bootstrap-overrides .footer-container {
+  font-family: nimbus-sans;
   background: #12193B; }
   #bootstrap-overrides .footer-container .title {
     padding: 56px 0 48px 0;
     color: #FFFFFF; }
     #bootstrap-overrides .footer-container .title h3 {
       font-size: 32px;
-      line-height: 48px; }
+      line-height: 48px;
+      font-weight: 600; }
     #bootstrap-overrides .footer-container .title p {
       font-size: 20px;
       line-height: 32px;
       font-weight: 400; }
   #bootstrap-overrides .footer-container .btn {
+    font-family: 'Roboto', sans-serif;
     width: fit-content;
     font-size: 18px;
     line-height: 27px;
@@ -208,7 +222,8 @@ body {
   #bootstrap-overrides .step1-container .mobile {
     height: 333px; }
     #bootstrap-overrides .step1-container .mobile h2 {
-      margin-bottom: 1rem; }
+      margin-bottom: 1rem;
+      font-weight: 600; }
     #bootstrap-overrides .step1-container .mobile p {
       font-size: 16px;
       line-height: 24px;
@@ -301,7 +316,8 @@ body {
     #bootstrap-overrides .mobile-container h2 {
       font-size: 24px;
       line-height: 34px;
-      margin-bottom: 1rem; }
+      margin-bottom: 1rem;
+      font-weight: 600; }
     #bootstrap-overrides .mobile-container p {
       font-size: 18px;
       line-height: 27px;
@@ -339,6 +355,7 @@ body {
 
 @media screen and (max-width: 576px) {
   #bootstrap-overrides {
+    font-family: nimbus-sans;
     color: rgba(0, 0, 0, 0.87); }
     #bootstrap-overrides .hero .main-container .row {
       margin: 30px auto;
@@ -347,7 +364,8 @@ body {
         margin-top: inherit; }
         #bootstrap-overrides .hero .main-container .row .text h1 {
           font-size: 32px;
-          line-height: 44.8px; }
+          line-height: 44.8px;
+          font-weight: 600; }
         #bootstrap-overrides .hero .main-container .row .text p {
           font-size: 17px;
           width: 329px;
@@ -361,12 +379,14 @@ body {
       line-height: 36px; }
     #bootstrap-overrides .step2-container .mobile h2 {
       font-size: 24px;
-      line-height: 36px; }
+      line-height: 36px;
+      font-weight: 600; }
     #bootstrap-overrides .step2-container .mobile .demo-form-text {
       margin-bottom: 48px; }
       #bootstrap-overrides .step2-container .mobile .demo-form-text h3 {
         font-size: 18px;
-        line-height: 21px; }
+        line-height: 21px;
+        font-family: 'Roboto', sans-serif; }
       #bootstrap-overrides .step2-container .mobile .demo-form-text p {
         font-size: 16px;
         line-height: 24px; }
@@ -379,7 +399,8 @@ body {
       margin-bottom: 48px; }
       #bootstrap-overrides .rewards-container .row .rewards-text h2 {
         font-size: 18px;
-        line-height: 21px; }
+        line-height: 21px;
+        font-family: 'Roboto', sans-serif; }
       #bootstrap-overrides .rewards-container .row .rewards-text p {
         font-size: 16px;
         line-height: 24px; }
@@ -404,7 +425,8 @@ body {
       margin-bottom: 48px; }
       #bootstrap-overrides .styles-container .row .select-style h2 {
         font-size: 18px;
-        line-height: 21px; }
+        line-height: 21px;
+        font-family: 'Roboto', sans-serif; }
       #bootstrap-overrides .styles-container .row .select-style p {
         font-size: 16px;
         line-height: 24px; }
