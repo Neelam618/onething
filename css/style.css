@@ -92,16 +92,14 @@ body {
   background: #FFE4E7; }
   #bootstrap-overrides .rewards-container .row {
     height: 608px; }
-    #bootstrap-overrides .rewards-container .row .rewards-text {
-      min-width: 496px; }
-      #bootstrap-overrides .rewards-container .row .rewards-text h2 {
-        margin: 1rem 0;
-        font-size: 40px;
-        line-height: 60px; }
-      #bootstrap-overrides .rewards-container .row .rewards-text p {
-        font-size: 24px;
-        line-height: 36px;
-        font-weight: 400; }
+    #bootstrap-overrides .rewards-container .row .rewards-text h2 {
+      margin: 1rem 0;
+      font-size: 40px;
+      line-height: 60px; }
+    #bootstrap-overrides .rewards-container .row .rewards-text p {
+      font-size: 24px;
+      line-height: 36px;
+      font-weight: 400; }
     #bootstrap-overrides .rewards-container .row .slideshow {
       width: 100%; }
 
@@ -127,7 +125,6 @@ body {
       #bootstrap-overrides .styles-container .row .carousel-indicators button.active {
         border: 1px solid rgba(0, 0, 0, 0.6); }
   #bootstrap-overrides .styles-container .row .select-style {
-    width: 495px;
     margin-bottom: 48px; }
     #bootstrap-overrides .styles-container .row .select-style h2 {
       margin: 1rem 0;
@@ -143,7 +140,8 @@ body {
   margin: 80px auto; }
   #bootstrap-overrides .faq-container h3 {
     font-size: 32px;
-    line-height: 48px; }
+    line-height: 48px;
+    margin-bottom: 0; }
   #bootstrap-overrides .faq-container .accordion .accordion-item .accordion-header .accordion-button {
     color: #F2707C;
     font-size: 20px;
@@ -372,21 +370,22 @@ body {
         margin-right: 21.7px; }
         #bootstrap-overrides .styles-container .row .carousel-indicators button img {
           width: 40px; }
-    #bootstrap-overrides .styles-container .row .select-style {
-      width: 327px; }
-      #bootstrap-overrides .styles-container .row .select-style h2 {
-        font-size: 18px;
-        line-height: 21px; }
-      #bootstrap-overrides .styles-container .row .select-style p {
-        font-size: 16px;
-        line-height: 24px; }
-    #bootstrap-overrides .faq-container .accordion .accordion-item .accordion-header .accordion-button {
-      font-size: 14px;
-      line-height: 19.6px; }
-      #bootstrap-overrides .faq-container .accordion .accordion-item .accordion-header .accordion-button::after {
-        background-size: 10px 5px;
-        background-position: center; }
+    #bootstrap-overrides .styles-container .row .select-style h2 {
+      font-size: 18px;
+      line-height: 21px; }
+    #bootstrap-overrides .styles-container .row .select-style p {
+      font-size: 16px;
+      line-height: 24px; }
+    #bootstrap-overrides .faq-container {
+      margin: 48px 0 42px 0; }
+      #bootstrap-overrides .faq-container .accordion .accordion-item .accordion-header .accordion-button {
+        font-size: 14px;
+        line-height: 19.6px;
+        padding: 16px 0; }
+        #bootstrap-overrides .faq-container .accordion .accordion-item .accordion-header .accordion-button::after {
+          background-size: 10px 5px;
+          background-position: center; }
     #bootstrap-overrides .footer-container .title {
       padding-top: 32px; }
     #bootstrap-overrides .footer-container .row {
-      margin-top: 40px; } }
+      padding: 40px 0 37px 0; } }
