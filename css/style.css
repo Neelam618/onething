@@ -103,8 +103,7 @@ body {
         line-height: 36px;
         font-weight: 400; }
     #bootstrap-overrides .rewards-container .row .slideshow {
-      width: 100%;
-      max-width: 600px; }
+      width: 100%; }
 
 #bootstrap-overrides .styles-container {
   background: #F7F3FF;
@@ -267,15 +266,16 @@ body {
           line-height: 24px; }
         #bootstrap-overrides .rewards-container .row .rewards-text .start-btn img {
           vertical-align: unset; }
-      #bootstrap-overrides .rewards-container .row .slideshow .carousel-inner {
-        background: #fae4e7;
-        padding: 24px; }
+      #bootstrap-overrides .rewards-container .row .slideshow {
+        background: #fae4e7; }
+        #bootstrap-overrides .rewards-container .row .slideshow .carousel {
+          padding: 24px 0; }
   #bootstrap-overrides .styles-container {
     background: unset;
     padding: 0; }
     #bootstrap-overrides .styles-container .row .carousel {
       background: #F7F3FF;
-      padding: 30px 45px; }
+      padding: 30px 0; }
     #bootstrap-overrides .styles-container .row .start-btn a {
       color: inherit;
       margin-right: 11.33px;
@@ -354,14 +354,12 @@ body {
       line-height: 21px; }
     #bootstrap-overrides .step2-container .mobile .start-btn a {
       color: inherit; }
-    #bootstrap-overrides .rewards-container .row .rewards-text {
-      min-width: 327px; }
-      #bootstrap-overrides .rewards-container .row .rewards-text h2 {
-        font-size: 18px;
-        line-height: 21px; }
-      #bootstrap-overrides .rewards-container .row .rewards-text p {
-        font-size: 16px;
-        line-height: 24px; }
+    #bootstrap-overrides .rewards-container .row .rewards-text h2 {
+      font-size: 18px;
+      line-height: 21px; }
+    #bootstrap-overrides .rewards-container .row .rewards-text p {
+      font-size: 16px;
+      line-height: 24px; }
     #bootstrap-overrides .rewards-container .row .slideshow .carousel-inner .carousel-item img {
       width: 184px; }
     #bootstrap-overrides .styles-container .row .carousel-inner .carousel-item img {
