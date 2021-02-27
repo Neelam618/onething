@@ -323,7 +323,7 @@ body {
     #bootstrap-overrides .hero header .navbar .navbar-collapse .navbar-nav .nav-item .btn {
       margin-left: 0; }
   #bootstrap-overrides .hero .main-container {
-    height: 96vh !important; } }
+    height: 95.9vh !important; } }
 
 @media screen and (max-width: 768px) {
   #bootstrap-overrides .hero .main-container {
