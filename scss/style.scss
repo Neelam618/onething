@@ -164,6 +164,9 @@ body {
                             &[aria-hidden="true"] {
                                 transform: scale(0.9);
                             }
+                            &:focus {
+                                outline: none;
+                            }
                             img {
                                 margin: 0 auto;
                             }

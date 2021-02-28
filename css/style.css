@@ -117,6 +117,8 @@ body {
             margin: 0 auto; }
             #bootstrap-overrides .rewards-container .row .slideshow .center .slick-list .slick-slide[aria-hidden="true"] {
               transform: scale(0.9); }
+            #bootstrap-overrides .rewards-container .row .slideshow .center .slick-list .slick-slide:focus {
+              outline: none; }
             #bootstrap-overrides .rewards-container .row .slideshow .center .slick-list .slick-slide img {
               margin: 0 auto; }
 
