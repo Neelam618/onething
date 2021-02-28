@@ -151,12 +151,13 @@ body {
                     font-weight: 400;
                 }
             }
-            // .slideshow {
-                // width: 100%;
+            .slideshow {
+                width: 100%;
                 .center {
                     padding: 40px 0;
                     .slick-list {
-                        width: 600px;
+                        width: 100%;
+                        max-width: 600px;
                         margin: 0 auto!important;
                         .slick-slide {
                             margin: 0 auto;
@@ -170,7 +171,7 @@ body {
                     }
                 }
                 
-            // }
+            }
         }
     }
     .styles-container {
@@ -312,11 +313,6 @@ body {
         }
     }
 }
-
-
-
-
-// .slick-slide, .slick-current, .slick-active, .slick-center {
 
 @media screen and (max-width:1199px) {
     #bootstrap-overrides {
@@ -647,15 +643,6 @@ body {
                         }
                     }
                 }
-                // .slideshow {
-                //     .carousel-inner {
-                //         .carousel-item {
-                //             img {
-                //                 width: 184px;
-                //             }
-                //         }
-                //     }
-                // }
             }
         }
         .styles-container {

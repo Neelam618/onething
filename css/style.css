@@ -105,17 +105,20 @@ body {
       font-size: 24px;
       line-height: 36px;
       font-weight: 400; }
-    #bootstrap-overrides .rewards-container .row .center {
-      padding: 40px 0; }
-      #bootstrap-overrides .rewards-container .row .center .slick-list {
-        width: 600px;
-        margin: 0 auto !important; }
-        #bootstrap-overrides .rewards-container .row .center .slick-list .slick-slide {
-          margin: 0 auto; }
-          #bootstrap-overrides .rewards-container .row .center .slick-list .slick-slide[aria-hidden="true"] {
-            transform: scale(0.9); }
-          #bootstrap-overrides .rewards-container .row .center .slick-list .slick-slide img {
+    #bootstrap-overrides .rewards-container .row .slideshow {
+      width: 100%; }
+      #bootstrap-overrides .rewards-container .row .slideshow .center {
+        padding: 40px 0; }
+        #bootstrap-overrides .rewards-container .row .slideshow .center .slick-list {
+          width: 100%;
+          max-width: 600px;
+          margin: 0 auto !important; }
+          #bootstrap-overrides .rewards-container .row .slideshow .center .slick-list .slick-slide {
             margin: 0 auto; }
+            #bootstrap-overrides .rewards-container .row .slideshow .center .slick-list .slick-slide[aria-hidden="true"] {
+              transform: scale(0.9); }
+            #bootstrap-overrides .rewards-container .row .slideshow .center .slick-list .slick-slide img {
+              margin: 0 auto; }
 
 #bootstrap-overrides .styles-container {
   background: #F7F3FF;
