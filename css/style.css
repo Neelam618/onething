@@ -194,8 +194,6 @@ body {
     font-family: "Roboto", sansserif;
     width: fit-content;
     width: -moz-fit-content;
-    width: -o-fit-content;
-    width: -ms-fit-content;
     font-size: 18px;
     color: #FFFFFF;
     padding: 8px 40px;
@@ -264,9 +262,7 @@ body {
     background: none; }
     #bootstrap-overrides .rewards-container .row {
       height: fit-content;
-      height: -moz-fit-content;
-      width: -o-fit-content;
-      width: -ms-fit-content; }
+      height: -moz-fit-content; }
       #bootstrap-overrides .rewards-container .row .rewards-text {
         margin-bottom: 100px; }
         #bootstrap-overrides .rewards-container .row .rewards-text .start-btn a {
