@@ -311,6 +311,7 @@ body {
         .btn {
             font-family: $mainFont;
             width: fit-content;
+            width: -moz-fit-content;
             font-size: 18px;
             color: $colorWhite;
             padding: 8px 40px;
@@ -418,6 +419,7 @@ body {
             background: none;
             .row {
                 height: fit-content;
+                height: -moz-fit-content;
                 .rewards-text {
                     margin-bottom: 100px;
                     @include start_btn;

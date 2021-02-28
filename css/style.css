@@ -193,6 +193,7 @@ body {
   #bootstrap-overrides .footer-container .btn {
     font-family: "Roboto", sansserif;
     width: fit-content;
+    width: -moz-fit-content;
     font-size: 18px;
     color: #FFFFFF;
     padding: 8px 40px;
@@ -260,7 +261,8 @@ body {
   #bootstrap-overrides .rewards-container {
     background: none; }
     #bootstrap-overrides .rewards-container .row {
-      height: fit-content; }
+      height: fit-content;
+      height: -moz-fit-content; }
       #bootstrap-overrides .rewards-container .row .rewards-text {
         margin-bottom: 100px; }
         #bootstrap-overrides .rewards-container .row .rewards-text .start-btn a {
