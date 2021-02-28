@@ -148,7 +148,7 @@ body {
         .row {
             height: 608px;
             .rewards-text {
-                h2 {
+                h3 {
                     font-size: 40px;
                     line-height: 60px;
                 }
@@ -207,7 +207,7 @@ body {
                     }
                 }
             }
-            .select-style {
+            .select-style-text {
                 width: 495px;
                 h2 {
                     margin: 1rem 0;
@@ -291,7 +291,6 @@ body {
             font-family: $mainFont;
             width: fit-content;
             font-size: 18px;
-            line-height: 27px;
             color: $colorWhite;
             padding: 8px 40px;
             border-radius: 46px;
@@ -307,8 +306,6 @@ body {
             .col {
                 .section {
                     a {
-                        margin-bottom: 24px;
-                        line-height: 24px;
                         color: $colorWhite;
                     }
                 }
@@ -319,53 +316,57 @@ body {
 
 @media screen and (max-width:1199px) {
     #bootstrap-overrides {
-        .main-container {
-            height: 91.7vh!important;
-            .text {
-                margin-top: auto;
-            }
-            .image {
-                img {
-                    transform: scale(0.463);
-                    transform-origin: top;
+        .hero {
+            header {
+                .navbar {
+                    .navbar-collapse {
+                        .navbar-nav{
+                            .nav-item {
+                                .btn {
+                                    margin-left: 0;
+                                }
+                            }   
+                        }    
+                    }        
                 }
-            } 
+            }
+            .main-container {
+                height: 91.7vh!important;
+                .text {
+                    margin-top: auto;
+                }
+                .image {
+                    img {
+                        transform: scale(0.463);
+                        transform-origin: top;
+                    }
+                } 
+            }    
         }
         .step1-container {
             .mobile {
                 height: 333px;
                 h2 {
-                    margin-bottom: 1rem;
                     font-weight: 600;
                 }
                 p {
-                    font-size: 16px;
-                    line-height: 24px;
                     font-weight: 400;
-                    margin-bottom: 24px;
                 }
                 .label {
                     font-size: 14px;
-                    line-height: 21px;
                     font-weight: 400;
-                    margin-bottom: 8px;
                 }
                 .form {
                     .form-select {
                         width: 257px;
                         height: 40px;
-                        padding: 8px 16px;
                         border-radius: 21px;
                         color: rgba(0, 0, 0, 0.6);
                     }
                     .btn {
-                        font-size: 16px;
-                        line-height: 24px;
-                        padding: 8px 16px;
                         background: #4E3F6B;
                         border-radius: 21px;
                         color: $colorWhite;
-                        margin-left: 16px;
                     }
                 }
             }
@@ -378,22 +379,15 @@ body {
                     margin: 32px 0;
                     font-size: 40px;
                 }
-                .demo-form {
-                    img {
-                        width: -webkit-fill-available;;
-                    }
-                }
                 .demo-form-text {
                     margin-bottom: 100px;
                     h3 {
                         font-size: 40px;
                         line-height: 60px;
-                        margin-top: 1rem;
                     }
                     p{
                         font-weight: 400;
                         font-size: 24px;
-                        line-height: 36px;
                     }
                     @include start_btn;
                 }
@@ -421,7 +415,7 @@ body {
                     padding: 30px 0;
                 }
                 @include start_btn;
-                .select-style {
+                .select-style-text {
                     width: auto;
                     margin-bottom: 100px;
                 }
@@ -434,14 +428,11 @@ body {
             h2 {
                 font-size: 24px;
                 line-height: 34px;
-                margin-bottom: 1rem;
                 font-weight: 600;
             }
             p {
                 font-size: 18px;
-                line-height: 27px;
                 font-weight: 400;
-                margin-bottom: 16px;
             }
             @include start-btn-white;
         }
@@ -459,12 +450,7 @@ body {
                     }
                     .navbar-collapse {
                         .navbar-nav {
-                            padding: 25px 0;
-                            .nav-item {
-                                .btn {
-                                    margin-left: 0;
-                                }
-                            }    
+                            padding: 25px 0; 
                         }
                     }
                 }
@@ -496,10 +482,10 @@ body {
        }
        .rewards-container {
             .center {
-                width: inherit!important;
+                width: inherit;
                 padding: 24px 0;
                 .slick-list {
-                    width: inherit!important;
+                    width: inherit;
                     .slick-slide {
                         img {
                             width: 184px;
@@ -518,7 +504,6 @@ body {
             .main-container {
                 .row {
                     margin: 30px auto;
-                    margin-bottom: 48px;
                     .text {
                         margin-top: inherit;
                         h1 {
@@ -533,7 +518,6 @@ body {
                         }
                         .btn {
                             font-size: 16px;
-                            line-height: 24px;
                             padding: 8px 37px;
                         }
                     }
@@ -569,7 +553,7 @@ body {
                     .start-btn {
                         a {
                             font-size: 16px;
-                            color: inherit;
+                            color: $colorBlack;
                         }
                         img {
                             width: auto;
@@ -582,7 +566,7 @@ body {
             .row {
                 .rewards-text {
                     margin-bottom: 48px;
-                    h2 {
+                    h3 {
                         font-size: 18px;
                         line-height: 21px;
                         font-family: $mainFont;
@@ -594,7 +578,7 @@ body {
                     .start-btn {
                         a {
                             font-size: 16px;
-                            color: inherit;
+                            color: $colorBlack;
                         }
                         img {
                             width: auto;
@@ -623,7 +607,7 @@ body {
                         }
                     }
                 }
-                .select-style {
+                .select-style-text {
                     margin-bottom: 48px;
                     h2 {
                         font-size: 18px;
@@ -637,7 +621,7 @@ body {
                     .start-btn {
                         a {
                             font-size: 16px;
-                            color: inherit;
+                            color: $colorBlack;
                         }
                         img {
                             width: auto;
@@ -645,7 +629,6 @@ body {
                     }
                 }
             }
-            
         }
         .faq-container {
             margin: 48px 0 42px 0;

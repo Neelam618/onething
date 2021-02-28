@@ -87,7 +87,7 @@ body {
   background: #FFE4E7; }
   #bootstrap-overrides .rewards-container .row {
     height: 608px; }
-    #bootstrap-overrides .rewards-container .row .rewards-text h2 {
+    #bootstrap-overrides .rewards-container .row .rewards-text h3 {
       font-size: 40px;
       line-height: 60px; }
     #bootstrap-overrides .rewards-container .row .rewards-text p {
@@ -129,13 +129,13 @@ body {
         float: left; }
       #bootstrap-overrides .styles-container .row .carousel-indicators button.active {
         border: 1px solid rgba(0, 0, 0, 0.6); }
-  #bootstrap-overrides .styles-container .row .select-style {
+  #bootstrap-overrides .styles-container .row .select-style-text {
     width: 495px; }
-    #bootstrap-overrides .styles-container .row .select-style h2 {
+    #bootstrap-overrides .styles-container .row .select-style-text h2 {
       margin: 1rem 0;
       font-size: 40px;
       line-height: 60px; }
-    #bootstrap-overrides .styles-container .row .select-style p {
+    #bootstrap-overrides .styles-container .row .select-style-text p {
       font-size: 24px;
       line-height: 36px;
       font-weight: 400; }
@@ -194,7 +194,6 @@ body {
     font-family: "Roboto", sansserif;
     width: fit-content;
     font-size: 18px;
-    line-height: 27px;
     color: #FFFFFF;
     padding: 8px 40px;
     border-radius: 46px;
@@ -206,65 +205,50 @@ body {
   #bootstrap-overrides .footer-container .row {
     padding: 49px 0 56px 0; }
     #bootstrap-overrides .footer-container .row .col .section a {
-      margin-bottom: 24px;
-      line-height: 24px;
       color: #FFFFFF; }
 
 @media screen and (max-width: 1199px) {
-  #bootstrap-overrides .main-container {
+  #bootstrap-overrides .hero header .navbar .navbar-collapse .navbar-nav .nav-item .btn {
+    margin-left: 0; }
+  #bootstrap-overrides .hero .main-container {
     height: 91.7vh !important; }
-    #bootstrap-overrides .main-container .text {
+    #bootstrap-overrides .hero .main-container .text {
       margin-top: auto; }
-    #bootstrap-overrides .main-container .image img {
+    #bootstrap-overrides .hero .main-container .image img {
       transform: scale(0.463);
       transform-origin: top; }
   #bootstrap-overrides .step1-container .mobile {
     height: 333px; }
     #bootstrap-overrides .step1-container .mobile h2 {
-      margin-bottom: 1rem;
       font-weight: 600; }
     #bootstrap-overrides .step1-container .mobile p {
-      font-size: 16px;
-      line-height: 24px;
-      font-weight: 400;
-      margin-bottom: 24px; }
+      font-weight: 400; }
     #bootstrap-overrides .step1-container .mobile .label {
       font-size: 14px;
-      line-height: 21px;
-      font-weight: 400;
-      margin-bottom: 8px; }
+      font-weight: 400; }
     #bootstrap-overrides .step1-container .mobile .form .form-select {
       width: 257px;
       height: 40px;
-      padding: 8px 16px;
       border-radius: 21px;
       color: rgba(0, 0, 0, 0.6); }
     #bootstrap-overrides .step1-container .mobile .form .btn {
-      font-size: 16px;
-      line-height: 24px;
-      padding: 8px 16px;
       background: #4E3F6B;
       border-radius: 21px;
-      color: #FFFFFF;
-      margin-left: 16px; }
+      color: #FFFFFF; }
   #bootstrap-overrides .step2-container {
     background-image: unset; }
     #bootstrap-overrides .step2-container .mobile h2 {
       line-height: 60px;
       margin: 32px 0;
       font-size: 40px; }
-    #bootstrap-overrides .step2-container .mobile .demo-form img {
-      width: -webkit-fill-available; }
     #bootstrap-overrides .step2-container .mobile .demo-form-text {
       margin-bottom: 100px; }
       #bootstrap-overrides .step2-container .mobile .demo-form-text h3 {
         font-size: 40px;
-        line-height: 60px;
-        margin-top: 1rem; }
+        line-height: 60px; }
       #bootstrap-overrides .step2-container .mobile .demo-form-text p {
         font-weight: 400;
-        font-size: 24px;
-        line-height: 36px; }
+        font-size: 24px; }
       #bootstrap-overrides .step2-container .mobile .demo-form-text .start-btn a {
         font-size: 24px;
         line-height: 24px;
@@ -303,7 +287,7 @@ body {
     #bootstrap-overrides .styles-container .row .start-btn img {
       vertical-align: unset;
       width: 10px; }
-    #bootstrap-overrides .styles-container .row .select-style {
+    #bootstrap-overrides .styles-container .row .select-style-text {
       width: auto;
       margin-bottom: 100px; }
   #bootstrap-overrides .mobile-container {
@@ -313,13 +297,10 @@ body {
     #bootstrap-overrides .mobile-container h2 {
       font-size: 24px;
       line-height: 34px;
-      margin-bottom: 1rem;
       font-weight: 600; }
     #bootstrap-overrides .mobile-container p {
       font-size: 18px;
-      line-height: 27px;
-      font-weight: 400;
-      margin-bottom: 16px; }
+      font-weight: 400; }
     #bootstrap-overrides .mobile-container .start-btn-white a {
       font-weight: 500;
       font-size: 20px;
@@ -334,8 +315,6 @@ body {
     width: 102px; }
   #bootstrap-overrides .hero header .navbar .navbar-collapse .navbar-nav {
     padding: 25px 0; }
-    #bootstrap-overrides .hero header .navbar .navbar-collapse .navbar-nav .nav-item .btn {
-      margin-left: 0; }
   #bootstrap-overrides .hero .main-container {
     height: 95.9vh !important; }
     #bootstrap-overrides .hero .main-container .text {
@@ -349,10 +328,10 @@ body {
     #bootstrap-overrides .hero .main-container .image img {
       transform: scale(0.8); }
   #bootstrap-overrides .rewards-container .center {
-    width: inherit !important;
+    width: inherit;
     padding: 24px 0; }
     #bootstrap-overrides .rewards-container .center .slick-list {
-      width: inherit !important; }
+      width: inherit; }
       #bootstrap-overrides .rewards-container .center .slick-list .slick-slide img {
         width: 184px; } }
 
@@ -361,8 +340,7 @@ body {
     font-family: Nimbus-Sans;
     color: rgba(0, 0, 0, 0.87); }
     #bootstrap-overrides .hero .main-container .row {
-      margin: 30px auto;
-      margin-bottom: 48px; }
+      margin: 30px auto; }
       #bootstrap-overrides .hero .main-container .row .text {
         margin-top: inherit; }
         #bootstrap-overrides .hero .main-container .row .text h1 {
@@ -375,7 +353,6 @@ body {
           line-height: 25px; }
         #bootstrap-overrides .hero .main-container .row .text .btn {
           font-size: 16px;
-          line-height: 24px;
           padding: 8px 37px; }
     #bootstrap-overrides .step1-container .mobile h2 {
       font-size: 24px;
@@ -395,12 +372,12 @@ body {
         line-height: 24px; }
       #bootstrap-overrides .step2-container .mobile .demo-form-text .start-btn a {
         font-size: 16px;
-        color: inherit; }
+        color: rgba(0, 0, 0, 0.87); }
       #bootstrap-overrides .step2-container .mobile .demo-form-text .start-btn img {
         width: auto; }
     #bootstrap-overrides .rewards-container .row .rewards-text {
       margin-bottom: 48px; }
-      #bootstrap-overrides .rewards-container .row .rewards-text h2 {
+      #bootstrap-overrides .rewards-container .row .rewards-text h3 {
         font-size: 18px;
         line-height: 21px;
         font-family: "Roboto", sansserif; }
@@ -409,7 +386,7 @@ body {
         line-height: 24px; }
       #bootstrap-overrides .rewards-container .row .rewards-text .start-btn a {
         font-size: 16px;
-        color: inherit; }
+        color: rgba(0, 0, 0, 0.87); }
       #bootstrap-overrides .rewards-container .row .rewards-text .start-btn img {
         width: auto; }
     #bootstrap-overrides .styles-container .row .carousel-inner .carousel-item img {
@@ -422,19 +399,19 @@ body {
         margin-right: 21.7px; }
         #bootstrap-overrides .styles-container .row .carousel-indicators button img {
           width: 40px; }
-    #bootstrap-overrides .styles-container .row .select-style {
+    #bootstrap-overrides .styles-container .row .select-style-text {
       margin-bottom: 48px; }
-      #bootstrap-overrides .styles-container .row .select-style h2 {
+      #bootstrap-overrides .styles-container .row .select-style-text h2 {
         font-size: 18px;
         line-height: 21px;
         font-family: "Roboto", sansserif; }
-      #bootstrap-overrides .styles-container .row .select-style p {
+      #bootstrap-overrides .styles-container .row .select-style-text p {
         font-size: 16px;
         line-height: 24px; }
-      #bootstrap-overrides .styles-container .row .select-style .start-btn a {
+      #bootstrap-overrides .styles-container .row .select-style-text .start-btn a {
         font-size: 16px;
-        color: inherit; }
-      #bootstrap-overrides .styles-container .row .select-style .start-btn img {
+        color: rgba(0, 0, 0, 0.87); }
+      #bootstrap-overrides .styles-container .row .select-style-text .start-btn img {
         width: auto; }
     #bootstrap-overrides .faq-container {
       margin: 48px 0 42px 0; }
