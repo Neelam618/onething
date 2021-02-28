@@ -3,24 +3,20 @@
   src: url(../fonts/nimbus-sans-d-ot-light_32752.ttf); }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sansserif;
   font-weight: 500; }
 
 #bootstrap-overrides .hero {
   height: 100vh; }
-  #bootstrap-overrides .hero header .navbar .navbar-toggler {
-    border: none; }
-    #bootstrap-overrides .hero header .navbar .navbar-toggler .navbar-toggler-icon {
-      background-image: url(../img/menu.svg); }
+  #bootstrap-overrides .hero header .navbar .navbar-toggler .navbar-toggler-icon {
+    background-image: url(../img/menu.svg); }
   #bootstrap-overrides .hero header .navbar .navbar-collapse .navbar-nav {
-    padding: 2.5rem 0;
-    align-items: center; }
+    padding: 2.5rem 0; }
     #bootstrap-overrides .hero header .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
       color: #262A2F;
-      padding: 0 1.25rem; }
+      padding: 0 20px; }
     #bootstrap-overrides .hero header .navbar .navbar-collapse .navbar-nav .nav-item .btn {
       background-color: #F2707C;
-      padding: 0.5rem 1.5rem;
       font-weight: 500;
       color: #FFFFFF;
       border-radius: 4px;
@@ -31,8 +27,7 @@ body {
       height: inherit; }
       #bootstrap-overrides .hero .main-container .row .text h1 {
         font-size: 48px;
-        line-height: 62.4px;
-        margin-bottom: 1rem; }
+        line-height: 62.4px; }
       #bootstrap-overrides .hero .main-container .row .text p {
         width: 496px;
         font-size: 20px;
@@ -44,11 +39,7 @@ body {
         border-radius: 30px;
         color: #FFFFFF;
         font-weight: 500;
-        font-size: 18px;
-        margin-top: 1rem;
-        margin-bottom: 24px; }
-      #bootstrap-overrides .hero .main-container .row .image img {
-        width: 100%; }
+        font-size: 18px; }
 
 #bootstrap-overrides .step1-container {
   font-family: Nimbus-Sans;
@@ -68,8 +59,7 @@ body {
         font-size: 16px;
         width: 492px;
         font-weight: 400;
-        line-height: 24px;
-        margin-left: auto; }
+        line-height: 24px; }
         #bootstrap-overrides .step1-container .desktop .row .desc .start-btn-white a {
           font-weight: 500;
           font-size: 20px;
@@ -98,29 +88,25 @@ body {
   #bootstrap-overrides .rewards-container .row {
     height: 608px; }
     #bootstrap-overrides .rewards-container .row .rewards-text h2 {
-      margin: 1rem 0;
       font-size: 40px;
       line-height: 60px; }
     #bootstrap-overrides .rewards-container .row .rewards-text p {
       font-size: 24px;
       line-height: 36px;
       font-weight: 400; }
-    #bootstrap-overrides .rewards-container .row .slideshow {
-      width: 100%; }
-      #bootstrap-overrides .rewards-container .row .slideshow .center {
-        padding: 40px 0; }
-        #bootstrap-overrides .rewards-container .row .slideshow .center .slick-list {
-          width: 100%;
-          max-width: 600px;
-          margin: 0 auto !important; }
-          #bootstrap-overrides .rewards-container .row .slideshow .center .slick-list .slick-slide {
-            margin: 0 auto; }
-            #bootstrap-overrides .rewards-container .row .slideshow .center .slick-list .slick-slide[aria-hidden="true"] {
-              transform: scale(0.9); }
-            #bootstrap-overrides .rewards-container .row .slideshow .center .slick-list .slick-slide:focus {
-              outline: none; }
-            #bootstrap-overrides .rewards-container .row .slideshow .center .slick-list .slick-slide img {
-              margin: 0 auto; }
+    #bootstrap-overrides .rewards-container .row .slideshow .center {
+      padding: 40px 0; }
+      #bootstrap-overrides .rewards-container .row .slideshow .center .slick-list {
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto; }
+        #bootstrap-overrides .rewards-container .row .slideshow .center .slick-list .slick-slide {
+          transition: transform 0.5s ease-in-out;
+          margin: 0 auto; }
+          #bootstrap-overrides .rewards-container .row .slideshow .center .slick-list .slick-slide[aria-hidden="true"] {
+            transform: scale(0.9); }
+          #bootstrap-overrides .rewards-container .row .slideshow .center .slick-list .slick-slide:focus {
+            outline: none; }
 
 #bootstrap-overrides .styles-container {
   background: #F7F3FF;
@@ -155,7 +141,7 @@ body {
       font-weight: 400; }
 
 #bootstrap-overrides .mobile-container {
-  font-family: nimbus-sans; }
+  font-family: Nimbus-Sans; }
 
 #bootstrap-overrides .faq-container {
   max-width: 808px;
@@ -163,10 +149,9 @@ body {
   #bootstrap-overrides .faq-container h3 {
     font-size: 32px;
     line-height: 48px;
-    margin-bottom: 0;
-    font-family: 'Roboto', sans-serif; }
+    font-family: "Roboto", sansserif; }
   #bootstrap-overrides .faq-container .accordion .accordion-item .accordion-header .accordion-button {
-    font-family: nimbus-sans;
+    font-family: Nimbus-Sans;
     color: #F2707C;
     font-size: 20px;
     line-height: 32px;
@@ -192,7 +177,7 @@ body {
     color: rgba(0, 0, 0, 0.87); }
 
 #bootstrap-overrides .footer-container {
-  font-family: nimbus-sans;
+  font-family: Nimbus-Sans;
   background: #12193B; }
   #bootstrap-overrides .footer-container .title {
     padding: 56px 0 48px 0;
@@ -206,7 +191,7 @@ body {
       line-height: 32px;
       font-weight: 400; }
   #bootstrap-overrides .footer-container .btn {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sansserif;
     width: fit-content;
     font-size: 18px;
     line-height: 27px;
@@ -337,13 +322,12 @@ body {
       margin-bottom: 16px; }
     #bootstrap-overrides .mobile-container .start-btn-white a {
       font-weight: 500;
-      font-size: 16px;
-      line-height: 24px;
+      font-size: 20px;
+      line-height: 30px;
       color: #FFFFFF;
       padding-right: 1rem; }
     #bootstrap-overrides .mobile-container .start-btn-white img {
-      vertical-align: unset;
-      width: 7px; } }
+      vertical-align: unset; } }
 
 @media screen and (max-width: 992px) {
   #bootstrap-overrides .hero header .navbar .navbar-brand img {
@@ -374,7 +358,7 @@ body {
 
 @media screen and (max-width: 576px) {
   #bootstrap-overrides {
-    font-family: nimbus-sans;
+    font-family: Nimbus-Sans;
     color: rgba(0, 0, 0, 0.87); }
     #bootstrap-overrides .hero .main-container .row {
       margin: 30px auto;
@@ -405,7 +389,7 @@ body {
       #bootstrap-overrides .step2-container .mobile .demo-form-text h3 {
         font-size: 18px;
         line-height: 21px;
-        font-family: 'Roboto', sans-serif; }
+        font-family: "Roboto", sansserif; }
       #bootstrap-overrides .step2-container .mobile .demo-form-text p {
         font-size: 16px;
         line-height: 24px; }
@@ -419,7 +403,7 @@ body {
       #bootstrap-overrides .rewards-container .row .rewards-text h2 {
         font-size: 18px;
         line-height: 21px;
-        font-family: 'Roboto', sans-serif; }
+        font-family: "Roboto", sansserif; }
       #bootstrap-overrides .rewards-container .row .rewards-text p {
         font-size: 16px;
         line-height: 24px; }
@@ -443,7 +427,7 @@ body {
       #bootstrap-overrides .styles-container .row .select-style h2 {
         font-size: 18px;
         line-height: 21px;
-        font-family: 'Roboto', sans-serif; }
+        font-family: "Roboto", sansserif; }
       #bootstrap-overrides .styles-container .row .select-style p {
         font-size: 16px;
         line-height: 24px; }

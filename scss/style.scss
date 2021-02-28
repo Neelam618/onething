@@ -2,12 +2,43 @@
     font-family: Nimbus-Sans;
     src: url(../fonts/nimbus-sans-d-ot-light_32752.ttf);
 }
-
+$mainFont: 'Roboto', sansserif;
+$subFont: Nimbus-Sans;
 $colorSalmon: #F2707C;
 $colorWhite: #FFFFFF;
+$colorBlack: rgba(0, 0, 0, 0.87);
+
+@mixin start_btn {
+    .start-btn {
+        a {
+            font-size: 24px;
+            line-height: 24px;
+            color: inherit;
+            margin-right: 11.33px;
+        }
+        img {
+            vertical-align: unset;
+            width: 10px;
+        }
+    }
+}
+@mixin start-btn-white {
+    .start-btn-white {
+        a {
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 30px;
+            color: $colorWhite;
+            padding-right: 1rem;
+        }
+        img {
+            vertical-align: unset;
+        }
+    }
+}
 
 body {
-   font-family: 'Roboto', sans-serif;
+   font-family: $mainFont;
    font-weight: 500;
 }
 #bootstrap-overrides {
@@ -16,7 +47,6 @@ body {
         header {
             .navbar {
                 .navbar-toggler {
-                    border: none;
                     .navbar-toggler-icon {
                         background-image: url(../img/menu.svg);
                     }
@@ -24,15 +54,13 @@ body {
                 .navbar-collapse {
                     .navbar-nav {
                         padding: 2.5rem 0;
-                        align-items: center;
                         .nav-item {
                             .nav-link {
                                 color: #262A2F;
-                                padding: 0 1.25rem;
+                                padding: 0 20px;
                             }
                             .btn {
                                 background-color: $colorSalmon;
-                                padding: 0.5rem 1.5rem;
                                 font-weight: 500;
                                 color: $colorWhite;
                                 border-radius: 4px;
@@ -51,7 +79,6 @@ body {
                     h1 {
                         font-size: 48px;
                         line-height: 62.4px;
-                        margin-bottom: 1rem;
                     }
                     p{
                         width: 496px;
@@ -66,20 +93,13 @@ body {
                         color: $colorWhite;
                         font-weight: 500;
                         font-size: 18px;
-                        margin-top: 1rem;
-                        margin-bottom: 24px;
-                    }
-                }
-                .image {
-                    img {
-                        width: 100%;
                     }
                 }
             }
         }
     }
     .step1-container {
-        font-family: Nimbus-Sans;
+        font-family: $subFont;
         background: #8E7CB5;
         color: $colorWhite;
         .desktop {
@@ -98,19 +118,7 @@ body {
                     width: 492px;
                     font-weight: 400;
                     line-height: 24px;
-                    margin-left: auto;
-                    .start-btn-white {
-                        a {
-                            font-weight: 500;
-                            font-size: 20px;
-                            line-height: 30px;
-                            color: $colorWhite;
-                            padding-right: 1rem;
-                        }
-                        img {
-                            vertical-align: unset;
-                        }
-                    }
+                    @include start-btn-white;
                 }
             }
         }
@@ -141,7 +149,6 @@ body {
             height: 608px;
             .rewards-text {
                 h2 {
-                    margin: 1rem 0;
                     font-size: 40px;
                     line-height: 60px;
                 }
@@ -152,23 +159,20 @@ body {
                 }
             }
             .slideshow {
-                width: 100%;
                 .center {
                     padding: 40px 0;
                     .slick-list {
                         width: 100%;
                         max-width: 600px;
-                        margin: 0 auto!important;
+                        margin: 0 auto;
                         .slick-slide {
+                            transition: transform 0.5s ease-in-out;
                             margin: 0 auto;
                             &[aria-hidden="true"] {
                                 transform: scale(0.9);
                             }
                             &:focus {
                                 outline: none;
-                            }
-                            img {
-                                margin: 0 auto;
                             }
                         }
                     }
@@ -195,7 +199,6 @@ body {
                     border: 1px solid transparent;
                     background: #F7F3FF;
                     border-radius: 3px;
-
                     img {
                         float: left;
                     }
@@ -220,9 +223,7 @@ body {
         }
     }
     .mobile-container {
-        font-family: nimbus-sans;
-        // h2 {
-        // }
+        font-family: $subFont;
     }
     .faq-container {
         max-width: 808px;
@@ -230,14 +231,13 @@ body {
         h3 {
             font-size: 32px;
             line-height: 48px;
-            margin-bottom: 0;
-            font-family: 'Roboto', sans-serif;
+            font-family: $mainFont;
         }
-        .accordion{
+        .accordion {
             .accordion-item {
                 .accordion-header {
                     .accordion-button {
-                        font-family: nimbus-sans;
+                        font-family: $subFont;
                         color: $colorSalmon;
                         font-size: 20px;
                         line-height: 32px;
@@ -265,13 +265,13 @@ body {
                     font-size: 14px;
                     line-height: 20px;
                     font-weight: 400;
-                    color: rgba(0, 0, 0, 0.87);
+                    color: $colorBlack;
                 }
             }
         }
     }
     .footer-container {
-        font-family: nimbus-sans;
+        font-family: $subFont;
         background: #12193B;
         .title {
             padding: 56px 0 48px 0;
@@ -288,7 +288,7 @@ body {
             }
         }
         .btn {
-            font-family: 'Roboto', sans-serif;
+            font-family: $mainFont;
             width: fit-content;
             font-size: 18px;
             line-height: 27px;
@@ -395,18 +395,7 @@ body {
                         font-size: 24px;
                         line-height: 36px;
                     }
-                    .start-btn {
-                        a {
-                            font-size: 24px;
-                            line-height: 24px;
-                            color: inherit;
-                            margin-right: 11.33px;
-                        }
-                        img {
-                            vertical-align: unset;
-                            width: 10px;
-                        }
-                    }
+                    @include start_btn;
                 }
             }
         }
@@ -416,18 +405,7 @@ body {
                 height: fit-content;
                 .rewards-text {
                     margin-bottom: 100px;
-                    .start-btn {
-                        a {
-                            font-size: 24px;
-                            line-height: 24px;
-                            color: inherit;
-                            margin-right: 11.33px;
-                        }
-                        img {
-                            vertical-align: unset;
-                            width: 10px;
-                        }
-                    }
+                    @include start_btn;
                 }
                 .slideshow {
                     background: #fae4e7;
@@ -442,18 +420,7 @@ body {
                     background: #F7F3FF;
                     padding: 30px 0;
                 }
-                .start-btn {
-                    a {
-                        font-size: 24px;
-                        line-height: 24px;
-                        color: inherit;
-                        margin-right: 11.33px;
-                    }
-                    img {
-                        vertical-align: unset;
-                        width: 10px;
-                    }
-                }
+                @include start_btn;
                 .select-style {
                     width: auto;
                     margin-bottom: 100px;
@@ -476,19 +443,7 @@ body {
                 font-weight: 400;
                 margin-bottom: 16px;
             }
-            .start-btn-white {
-                a {
-                    font-weight: 500;
-                    font-size: 16px;
-                    line-height: 24px;
-                    color: $colorWhite;
-                    padding-right: 1rem;
-                }
-                img {
-                    vertical-align: unset;
-                    width: 7px;
-                }
-            }
+            @include start-btn-white;
         }
     }
 }
@@ -557,8 +512,8 @@ body {
 }
  @media screen and (max-width:576px) {
     #bootstrap-overrides {
-        font-family: nimbus-sans;
-        color: rgba(0, 0, 0, 0.87);
+        font-family: $subFont;
+        color: $colorBlack;
         .hero {
             .main-container {
                 .row {
@@ -605,7 +560,7 @@ body {
                     h3 {
                         font-size: 18px;
                         line-height: 21px;
-                        font-family: 'Roboto', sans-serif;
+                        font-family: $mainFont;
                     }
                     p {
                         font-size: 16px;
@@ -630,7 +585,7 @@ body {
                     h2 {
                         font-size: 18px;
                         line-height: 21px;
-                        font-family: 'Roboto', sans-serif;
+                        font-family: $mainFont;
                     }
                     p {
                         font-size: 16px;
@@ -673,7 +628,7 @@ body {
                     h2 {
                         font-size: 18px;
                         line-height: 21px;
-                        font-family: 'Roboto', sans-serif;
+                        font-family: $mainFont;
                     }
                     p {
                         font-size: 16px;
