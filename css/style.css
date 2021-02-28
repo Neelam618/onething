@@ -215,9 +215,11 @@ body {
     height: 91.7vh !important; }
     #bootstrap-overrides .hero .main-container .text {
       margin-top: auto; }
-    #bootstrap-overrides .hero .main-container .image img {
-      transform: scale(0.463);
-      transform-origin: top; }
+    #bootstrap-overrides .hero .main-container .image {
+      height: 50vh; }
+      #bootstrap-overrides .hero .main-container .image img {
+        transform: scale(0.463);
+        transform-origin: top; }
   #bootstrap-overrides .step1-container .mobile {
     height: 333px; }
     #bootstrap-overrides .step1-container .mobile h2 {
