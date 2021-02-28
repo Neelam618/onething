@@ -105,8 +105,17 @@ body {
       font-size: 24px;
       line-height: 36px;
       font-weight: 400; }
-    #bootstrap-overrides .rewards-container .row .slideshow {
-      width: 100%; }
+    #bootstrap-overrides .rewards-container .row .center {
+      padding: 40px 0; }
+      #bootstrap-overrides .rewards-container .row .center .slick-list {
+        width: 600px;
+        margin: 0 auto !important; }
+        #bootstrap-overrides .rewards-container .row .center .slick-list .slick-slide {
+          margin: 0 auto; }
+          #bootstrap-overrides .rewards-container .row .center .slick-list .slick-slide[aria-hidden="true"] {
+            transform: scale(0.9); }
+          #bootstrap-overrides .rewards-container .row .center .slick-list .slick-slide img {
+            margin: 0 auto; }
 
 #bootstrap-overrides .styles-container {
   background: #F7F3FF;
@@ -290,8 +299,6 @@ body {
           width: 10px; }
       #bootstrap-overrides .rewards-container .row .slideshow {
         background: #fae4e7; }
-        #bootstrap-overrides .rewards-container .row .slideshow .carousel {
-          padding: 24px 0; }
   #bootstrap-overrides .styles-container {
     background: unset;
     padding: 0; }
@@ -351,7 +358,14 @@ body {
     #bootstrap-overrides .hero .main-container .text {
       margin-top: 4rem; }
     #bootstrap-overrides .hero .main-container .image img {
-      transform: scale(0.8); } }
+      transform: scale(0.8); }
+  #bootstrap-overrides .rewards-container .center {
+    width: inherit !important;
+    padding: 24px 0; }
+    #bootstrap-overrides .rewards-container .center .slick-list {
+      width: inherit !important; }
+      #bootstrap-overrides .rewards-container .center .slick-list .slick-slide img {
+        width: 184px; } }
 
 @media screen and (max-width: 576px) {
   #bootstrap-overrides {
@@ -409,8 +423,6 @@ body {
         color: inherit; }
       #bootstrap-overrides .rewards-container .row .rewards-text .start-btn img {
         width: auto; }
-    #bootstrap-overrides .rewards-container .row .slideshow .carousel-inner .carousel-item img {
-      width: 184px; }
     #bootstrap-overrides .styles-container .row .carousel-inner .carousel-item img {
       width: 237.54px; }
     #bootstrap-overrides .styles-container .row .carousel-indicators {

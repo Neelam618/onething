@@ -151,9 +151,26 @@ body {
                     font-weight: 400;
                 }
             }
-            .slideshow {
-                width: 100%;
-            }
+            // .slideshow {
+                // width: 100%;
+                .center {
+                    padding: 40px 0;
+                    .slick-list {
+                        width: 600px;
+                        margin: 0 auto!important;
+                        .slick-slide {
+                            margin: 0 auto;
+                            &[aria-hidden="true"] {
+                                transform: scale(0.9);
+                            }
+                            img {
+                                margin: 0 auto;
+                            }
+                        }
+                    }
+                }
+                
+            // }
         }
     }
     .styles-container {
@@ -296,6 +313,11 @@ body {
     }
 }
 
+
+
+
+// .slick-slide, .slick-current, .slick-active, .slick-center {
+
 @media screen and (max-width:1199px) {
     #bootstrap-overrides {
         .main-container {
@@ -410,9 +432,6 @@ body {
                 }
                 .slideshow {
                     background: #fae4e7;
-                    .carousel {
-                        padding: 24px 0;
-                    }
                 }
             }
         }
@@ -488,9 +507,6 @@ body {
                         .navbar-nav {
                             padding: 25px 0;
                             .nav-item {
-                                .nav-link {
-                                    
-                                }
                                 .btn {
                                     margin-left: 0;
                                 }
@@ -508,6 +524,7 @@ body {
         }
     }
 }
+
 @media screen and (max-width:768px) {
     #bootstrap-overrides {
        .hero {
@@ -523,9 +540,22 @@ body {
                 }
             }
        }
+       .rewards-container {
+            .center {
+                width: inherit!important;
+                padding: 24px 0;
+                .slick-list {
+                    width: inherit!important;
+                    .slick-slide {
+                        img {
+                            width: 184px;
+                        }
+                    }
+                }
+            }
+       }
     }
 }
-
  @media screen and (max-width:576px) {
     #bootstrap-overrides {
         font-family: nimbus-sans;
@@ -617,15 +647,15 @@ body {
                         }
                     }
                 }
-                .slideshow {
-                    .carousel-inner {
-                        .carousel-item {
-                            img {
-                                width: 184px;
-                            }
-                        }
-                    }
-                }
+                // .slideshow {
+                //     .carousel-inner {
+                //         .carousel-item {
+                //             img {
+                //                 width: 184px;
+                //             }
+                //         }
+                //     }
+                // }
             }
         }
         .styles-container {
