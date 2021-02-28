@@ -212,7 +212,7 @@ body {
   #bootstrap-overrides .hero header .navbar-nav .btn {
     margin-left: 0; }
   #bootstrap-overrides .hero .main-container {
-    height: 91.7vh !important; }
+    height: 91.7vh; }
     #bootstrap-overrides .hero .main-container .text {
       margin-top: auto; }
     #bootstrap-overrides .hero .main-container .image {
@@ -320,13 +320,13 @@ body {
   #bootstrap-overrides .hero header .navbar-nav {
     padding: 25px 0; }
   #bootstrap-overrides .hero .main-container {
-    height: 95.9vh !important; }
+    height: 95.9vh; }
     #bootstrap-overrides .hero .main-container .text {
       margin-top: 4rem; } }
 
 @media screen and (max-width: 768px) {
   #bootstrap-overrides .hero .main-container {
-    height: 103.2vh !important; }
+    height: 103.2vh; }
     #bootstrap-overrides .hero .main-container .text {
       margin-top: 4rem; }
     #bootstrap-overrides .hero .main-container .image img {
