@@ -8,14 +8,14 @@ body {
 
 #bootstrap-overrides .hero {
   height: 100vh; }
-  #bootstrap-overrides .hero header .navbar .navbar-toggler .navbar-toggler-icon {
+  #bootstrap-overrides .hero header .navbar-toggler-icon {
     background-image: url(../img/menu.svg); }
-  #bootstrap-overrides .hero header .navbar .navbar-collapse .navbar-nav {
+  #bootstrap-overrides .hero header .navbar-nav {
     padding: 2.5rem 0; }
-    #bootstrap-overrides .hero header .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
+    #bootstrap-overrides .hero header .navbar-nav .nav-link {
       color: #262A2F;
       padding: 0 20px; }
-    #bootstrap-overrides .hero header .navbar .navbar-collapse .navbar-nav .nav-item .btn {
+    #bootstrap-overrides .hero header .navbar-nav .btn {
       background-color: #F2707C;
       font-weight: 500;
       color: #FFFFFF;
@@ -150,7 +150,7 @@ body {
     font-size: 32px;
     line-height: 48px;
     font-family: "Roboto", sansserif; }
-  #bootstrap-overrides .faq-container .accordion .accordion-item .accordion-header .accordion-button {
+  #bootstrap-overrides .faq-container .accordion-button {
     font-family: Nimbus-Sans;
     color: #F2707C;
     font-size: 20px;
@@ -159,15 +159,15 @@ body {
     border: none;
     border-bottom: 1px solid rgba(0, 0, 0, 0.38);
     padding: 32px 0 16px 0; }
-    #bootstrap-overrides .faq-container .accordion .accordion-item .accordion-header .accordion-button::after {
+    #bootstrap-overrides .faq-container .accordion-button::after {
       background-image: url(../img/arrowdown.svg); }
-    #bootstrap-overrides .faq-container .accordion .accordion-item .accordion-header .accordion-button:focus {
+    #bootstrap-overrides .faq-container .accordion-button:focus {
       box-shadow: none; }
-    #bootstrap-overrides .faq-container .accordion .accordion-item .accordion-header .accordion-button:not(.collapsed) {
+    #bootstrap-overrides .faq-container .accordion-button:not(.collapsed) {
       background-color: #FFFFFF;
       border: none;
       padding-bottom: 0; }
-  #bootstrap-overrides .faq-container .accordion .accordion-item .accordion-body {
+  #bootstrap-overrides .faq-container .accordion-body {
     border-bottom: 1px solid rgba(0, 0, 0, 0.38);
     text-align: initial;
     padding: 16px 0;
@@ -209,7 +209,7 @@ body {
       color: #FFFFFF; }
 
 @media screen and (max-width: 1199px) {
-  #bootstrap-overrides .hero header .navbar .navbar-collapse .navbar-nav .nav-item .btn {
+  #bootstrap-overrides .hero header .navbar-nav .btn {
     margin-left: 0; }
   #bootstrap-overrides .hero .main-container {
     height: 91.7vh !important; }
@@ -315,9 +315,9 @@ body {
       vertical-align: unset; } }
 
 @media screen and (max-width: 992px) {
-  #bootstrap-overrides .hero header .navbar .navbar-brand img {
+  #bootstrap-overrides .hero header .navbar-brand img {
     width: 102px; }
-  #bootstrap-overrides .hero header .navbar .navbar-collapse .navbar-nav {
+  #bootstrap-overrides .hero header .navbar-nav {
     padding: 25px 0; }
   #bootstrap-overrides .hero .main-container {
     height: 95.9vh !important; }
@@ -393,7 +393,7 @@ body {
         color: rgba(0, 0, 0, 0.87); }
       #bootstrap-overrides .rewards-container .row .rewards-text .start-btn img {
         width: auto; }
-    #bootstrap-overrides .styles-container .row .carousel-inner .carousel-item img {
+    #bootstrap-overrides .styles-container .row .carousel-item img {
       width: 237.54px; }
     #bootstrap-overrides .styles-container .row .carousel-indicators {
       margin-top: 36.54px; }
@@ -419,11 +419,11 @@ body {
         width: auto; }
     #bootstrap-overrides .faq-container {
       margin: 48px 0 42px 0; }
-      #bootstrap-overrides .faq-container .accordion .accordion-item .accordion-header .accordion-button {
+      #bootstrap-overrides .faq-container .accordion-button {
         font-size: 14px;
         line-height: 19.6px;
         padding: 16px 0; }
-        #bootstrap-overrides .faq-container .accordion .accordion-item .accordion-header .accordion-button::after {
+        #bootstrap-overrides .faq-container .accordion-button::after {
           background-size: 10px 5px;
           background-position: center; }
     #bootstrap-overrides .footer-container .title {

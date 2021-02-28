@@ -66,29 +66,21 @@ body {
     .hero {
         height: 100vh;
         header {
-            .navbar {
-                .navbar-toggler {
-                    .navbar-toggler-icon {
-                        background-image: url(../img/menu.svg);
-                    }
+            .navbar-toggler-icon {
+                background-image: url(../img/menu.svg);
+            }
+            .navbar-nav {
+                padding: 2.5rem 0;
+                .nav-link {
+                    color: #262A2F;
+                    padding: 0 20px;
                 }
-                .navbar-collapse {
-                    .navbar-nav {
-                        padding: 2.5rem 0;
-                        .nav-item {
-                            .nav-link {
-                                color: #262A2F;
-                                padding: 0 20px;
-                            }
-                            .btn {
-                                background-color: $colorSalmon;
-                                font-weight: 500;
-                                color: $colorWhite;
-                                border-radius: 4px;
-                                margin-left: 1.25rem;
-                            }
-                        }
-                    }
+                .btn {
+                    background-color: $colorSalmon;
+                    font-weight: 500;
+                    color: $colorWhite;
+                    border-radius: 4px;
+                    margin-left: 1.25rem;
                 }
             }
         }
@@ -254,41 +246,35 @@ body {
             line-height: 48px;
             font-family: $mainFont;
         }
-        .accordion {
-            .accordion-item {
-                .accordion-header {
-                    .accordion-button {
-                        font-family: $subFont;
-                        color: $colorSalmon;
-                        font-size: 20px;
-                        line-height: 32px;
-                        height: 80px;
-                        border: none;
-                        border-bottom: 1px solid rgba(0, 0, 0, 0.38);
-                        padding: 32px 0 16px 0;
-                        &::after {
-                            background-image: url(../img/arrowdown.svg);
-                        }
-                        &:focus {
-                            box-shadow: none;
-                        }
-                        &:not(.collapsed) {
-                            background-color: $colorWhite;
-                            border: none;
-                            padding-bottom: 0;
-                        }
-                    }
-                }
-                .accordion-body {
-                    border-bottom: 1px solid rgba(0, 0, 0, 0.38);
-                    text-align: initial;
-                    padding: 16px 0;
-                    font-size: 14px;
-                    line-height: 20px;
-                    font-weight: 400;
-                    color: $colorBlack;
-                }
+        .accordion-button {
+            font-family: $subFont;
+            color: $colorSalmon;
+            font-size: 20px;
+            line-height: 32px;
+            height: 80px;
+            border: none;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.38);
+            padding: 32px 0 16px 0;
+            &::after {
+                background-image: url(../img/arrowdown.svg);
             }
+            &:focus {
+                box-shadow: none;
+            }
+            &:not(.collapsed) {
+                background-color: $colorWhite;
+                border: none;
+                padding-bottom: 0;
+            }
+        }
+        .accordion-body {
+            border-bottom: 1px solid rgba(0, 0, 0, 0.38);
+            text-align: initial;
+            padding: 16px 0;
+            font-size: 14px;
+            line-height: 20px;
+            font-weight: 400;
+            color: $colorBlack;
         }
     }
     .footer-container {
@@ -340,17 +326,11 @@ body {
     #bootstrap-overrides {
         .hero {
             header {
-                .navbar {
-                    .navbar-collapse {
-                        .navbar-nav{
-                            .nav-item {
-                                .btn {
-                                    margin-left: 0;
-                                }
-                            }   
-                        }    
-                    }        
-                }
+                .navbar-nav{
+                    .btn {
+                        margin-left: 0;
+                    }
+                }    
             }
             .main-container {
                 height: 91.7vh!important;
@@ -466,17 +446,13 @@ body {
     #bootstrap-overrides {
         .hero {
             header {
-                .navbar {
-                    .navbar-brand {
-                        img {
-                            width: 102px;
-                        }
+                .navbar-brand {
+                    img {
+                        width: 102px;
                     }
-                    .navbar-collapse {
-                        .navbar-nav {
-                            padding: 25px 0; 
-                        }
-                    }
+                }
+                .navbar-nav {
+                    padding: 25px 0; 
                 }
             }
             .main-container {
@@ -577,11 +553,9 @@ body {
         }
         .styles-container {
             .row {
-                .carousel-inner {
-                    .carousel-item {
-                        img {
-                            width: 237.54px;
-                        }
+                .carousel-item {
+                    img {
+                        width: 237.54px;
                     }
                 }
                 .carousel-indicators {
@@ -620,19 +594,13 @@ body {
         }
         .faq-container {
             margin: 48px 0 42px 0;
-            .accordion{
-                .accordion-item {
-                    .accordion-header {
-                        .accordion-button {
-                            font-size: 14px;
-                            line-height: 19.6px;
-                            padding: 16px 0;
-                            &::after {
-                                background-size: 10px 5px;
-                                background-position: center;
-                            }
-                        }
-                    }
+            .accordion-button {
+                font-size: 14px;
+                line-height: 19.6px;
+                padding: 16px 0;
+                &::after {
+                    background-size: 10px 5px;
+                    background-position: center;
                 }
             }
         }
