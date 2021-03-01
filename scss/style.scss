@@ -22,17 +22,18 @@ $colorBlack: rgba(0, 0, 0, 0.87);
         }
     }
 }
-@mixin start-btn-white {
+@mixin start-btn-white($font, $width) {
     .start-btn-white {
         a {
             font-weight: 500;
-            font-size: 20px;
+            font-size: $font;
             line-height: 30px;
             color: $colorWhite;
             padding-right: 1rem;
         }
         img {
             vertical-align: unset;
+            width: $width;
         }
     }
 }
@@ -127,11 +128,10 @@ body {
                     font-weight: 600;
                 }
                 .desc {
-                    font-size: 16px;
                     width: 492px;
                     font-weight: 400;
                     line-height: 24px;
-                    @include start-btn-white;
+                    @include start-btn-white(20px, auto);
                 }
             }
         }
@@ -438,7 +438,7 @@ body {
                 font-size: 18px;
                 font-weight: 400;
             }
-            @include start-btn-white;
+            @include start-btn-white(16px, 6px);
         }
     }
 }
